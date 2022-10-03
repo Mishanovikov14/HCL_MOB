@@ -29,7 +29,9 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "login"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {

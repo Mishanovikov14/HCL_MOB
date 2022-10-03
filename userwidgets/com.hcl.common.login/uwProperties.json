@@ -1,0 +1,92 @@
+{
+    "classname": "login",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "affe39c69b8b442e97783a960fa31f55",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnLoginOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnLoginOnClick",
+                        "srcWidget": "btnLogin",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b88cfe7bdb884a1a9d9bbbb3ca5e2d2f",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e0e8684c98da4d22b73d5ddfcd1bce35",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "usernameText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "usernameText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "inputUsername",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "c9a2ce38e158442698bd6340d675b19a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aad8f737100c411583b4d42d2fec6b65",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "passwordText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "passwordText",
+                        "isHiddenInTool": false,
+                        "srcWidget": "inputPassword",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ibb7de0d72a84661b3596873abd293f4"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.common",
+    "version": "1.0.0"
+}
