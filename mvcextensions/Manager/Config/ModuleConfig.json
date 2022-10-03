@@ -1,0 +1,11 @@
+{
+	
+    "BusinessControllerConfig": {
+		"BusinessExtensions": [],
+		"BusinessControllerClass": "Manager/BusinessControllers/BusinessController"
+	},
+    
+    
+    "ModuleType": "Manager",
+	"ModuleName": "Manager"
+}
