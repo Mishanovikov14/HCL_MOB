@@ -1,0 +1,248 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_data_": [
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        },
+        {
+            "lblClass": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Class"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Name"
+            },
+            "lblRaiting": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Rating"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segStudents",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "daf2cd156e6b4202b8b686896768fe72",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxContent",
+    "pf": "frmDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "ffaba006c47b438b9db956eb1b5f7ac8",
+    "rowcounter": 9,
+    "rowfocusskin": "s3738e5d9fe64b5cb61f1fd1a0405ad2",
+    "rowskin": "s98689945d6f416fa719eeffeeeec2fe",
+    "rowtemplate": "flxContainer",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s168997d9e0241719c67d45e74d8e110",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "00000000",
+    "separatorrequired": true,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxClass": "flxClass",
+        "flxContainer": "flxContainer",
+        "flxName": "flxName",
+        "flxRating": "flxRating",
+        "lblClass": "lblClass",
+        "lblName": "lblName",
+        "lblRaiting": "lblRaiting"
+    },
+    "zindex": 1
+}

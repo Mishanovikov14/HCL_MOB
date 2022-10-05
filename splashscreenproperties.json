@@ -8,8 +8,34 @@
             "android": {},
             "iphone": {
                 "splashConfig": {
-                    "_skin_": "s34c4388dd8542508147ebaa49c09bc3",
-                    "children": []
+                    "_skin_": "s9dfd7567b5c47668f7c0a4bfa569017",
+                    "children": [
+                        {
+                            "isvisible": true,
+                            "kuid": "j27c6ad376f6460b83f9ff7728d452f9",
+                            "id": "Image0gdc3b816c3b644",
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "wType": "Image",
+                            "_src_": "splashscreen.png",
+                            "contentmode": 0,
+                            "UIElementType": "Image"
+                        }
+                    ]
                 }
             },
             "spa": {},
@@ -17,7 +43,9 @@
             "spaip": {},
             "spawinphone8": {},
             "winphone10": {},
-            "winphone8": {}
+            "winphone8": {},
+            "splashImage": "splashscreen.png",
+            "showLoadingIndicator": false
         },
         "tablet": {
             "android": {},

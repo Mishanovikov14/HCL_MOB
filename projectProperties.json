@@ -257,6 +257,7 @@
     "category": "app",
     "chat": "false",
     "cloud_account_guid": "fd0630b5-7aa0-45f7-8bf5-9903ae8e6cd3",
+    "cloud_env_GUID": "8b828118-c40f-421a-94e9-b11593333db4",
     "codeGeneration": "false",
     "contacts": "false",
     "cordovaModified": false,
@@ -267,6 +268,7 @@
     "defaultZIndex": "1",
     "defaultlocalekey": "",
     "defaulttheme": "defaultTheme",
+    "desktopstartupformkey": "f29e0af1b2e34da2817abfa6f3d53d44",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
     "desktopwebfavico": "",
@@ -367,6 +369,14 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "kfAppInfo": {
+        "fd0630b5-7aa0-45f7-8bf5-9903ae8e6cd3": {
+            "appName": "SchoolNotesHCL",
+            "baseId": "67bc095c-b507-4a85-aa6f-477c6a49b3d7",
+            "id": "67bc095c-b507-4a85-aa6f-477c6a49b3d7",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "9.2.55",
     "lastmodifiedtime": "1664800022573",
     "location": "false",
@@ -645,9 +655,11 @@
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",
