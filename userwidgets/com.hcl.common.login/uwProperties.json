@@ -2,7 +2,32 @@
     "classname": "login",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ha82f7114235417ba6dbcc8e4fb2803f",
+                    "paramList": [],
+                    "propertyKey": "showError",
+                    "pw": {
+                        "displayName": "showError",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jbd810b84893475a837325dfe9a98f61",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "fd2fc978917846f4a2b9e69a42368cda",
+                    "paramList": [],
+                    "propertyKey": "resetUi",
+                    "pw": {
+                        "displayName": "resetUi",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "jbd810b84893475a837325dfe9a98f61",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -30,7 +55,9 @@
             ]
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []
