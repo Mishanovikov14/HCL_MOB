@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "flxUsername",
-        "flxPassword"
+        "flxPassword",
+        "lblErrorText"
     ],
     "clipbounds": true,
     "containerweight": 100,

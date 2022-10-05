@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "default",
+    "font_name": "Montserrat-Bold",
     "font_size": 150,
     "isForked": false
   },
@@ -16,7 +16,7 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "font_name": "Helvetica",
+    "font_name": "Montserrat-Bold",
     "font_size": 150,
     "isForked": false
   },
@@ -32,7 +32,7 @@
     "isForked": false
   },
   "iphone": {
-    "font_name": "Arial Bold",
+    "font_name": "Montserrat-Bold",
     "font_size": 150,
     "isForked": false
   },
