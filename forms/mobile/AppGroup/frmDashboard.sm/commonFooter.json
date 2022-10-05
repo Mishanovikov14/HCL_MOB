@@ -55,14 +55,6 @@
                 "wType": "Button"
             }
         },
-        "btnInvite": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "j004ac7b3846494f961b197bafe5fa19",
-                "srcKUID": "b863380e5bad4a3e903714aff27918ef",
-                "wType": "Button"
-            }
-        },
         "commonFooter": {
             "__events__": {},
             "__info__": {

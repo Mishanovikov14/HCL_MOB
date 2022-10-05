@@ -17,8 +17,8 @@
         0,
         0
     ],
-    "_skin_": "sf0feedf9a664681a3e935619080831c",
-    "_text_": "Rating",
+    "_skin_": "saf272e83b944112aa1c19d05124adeb",
+    "_text_": "Age",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -39,10 +39,9 @@
         "type": "string",
         "value": "50%"
     },
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblRaiting",
+    "id": "lblAge",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "aac1d34f3d5141fc9eed1d4fab5a6e65",
+    "kuid": "a528ca49f736458492fca3f50af9d092",
     "name": "kony.ui.Label",
-    "parent": "flxRating",
-    "pf": "studentsRowTemplate",
+    "parent": "flxAge",
+    "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

@@ -5,10 +5,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_margin_": [
         1,
         1,
@@ -21,12 +17,8 @@
         0,
         0
     ],
-    "_skin_": "saf272e83b944112aa1c19d05124adeb",
-    "_text_": "Select class",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "sf0feedf9a664681a3e935619080831c",
+    "_text_": "12",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -39,9 +31,18 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblDropdownTitle",
+    "id": "lbl4",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "beefd0ed94764d86a9b86ff86ac1e438",
+    "kuid": "c787075c50cd4b0fb20064e1c5c35ef1",
     "name": "kony.ui.Label",
-    "parent": "flxDropdown",
-    "pf": "frmDashboard",
+    "parent": "flxAgeNumber",
+    "pf": "studentsRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

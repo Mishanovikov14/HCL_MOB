@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "70%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5%"
     },
     "_margin_": [
         0,
@@ -23,19 +23,20 @@
     ],
     "_percent_": true,
     "_skin_": "s1f123f081e0478d8daf17e562316126",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblName"
+        "flxFullName",
+        "flxID"
     ],
     "clipbounds": true,
     "containerId": true,
@@ -48,7 +49,7 @@
     "kuid": "d264acabad6a4f028b0f4e64226b6a20",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContainer",
+    "parent": "flxMain",
     "pf": "studentsRowTemplate",
     "responsiveconfig": {
         "offset": {

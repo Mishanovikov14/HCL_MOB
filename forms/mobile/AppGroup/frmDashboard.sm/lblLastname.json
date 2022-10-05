@@ -17,8 +17,8 @@
         0,
         0
     ],
-    "_skin_": "sf0feedf9a664681a3e935619080831c",
-    "_text_": "Name",
+    "_skin_": "saf272e83b944112aa1c19d05124adeb",
+    "_text_": "Lastname",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -39,10 +39,9 @@
         "type": "string",
         "value": "50%"
     },
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblName",
+    "id": "lblLastname",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f439345360f043f5b53aa101f4795c56",
+    "kuid": "d2e59c52ed554d098fec27ca0b015e52",
     "name": "kony.ui.Label",
-    "parent": "flxName",
-    "pf": "studentsRowTemplate",
+    "parent": "flxLastname",
+    "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

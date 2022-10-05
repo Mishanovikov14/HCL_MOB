@@ -36,7 +36,6 @@
     "canUpdateUI": true,
     "children": [
         "btnHome",
-        "btnInvite",
         "btnAboutUs"
     ],
     "clipbounds": true,

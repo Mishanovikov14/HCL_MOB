@@ -1,9 +1,15 @@
 {
   "android": {
-    "font_name": "default"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "default",
+    "isForked": true
   },
   "androidwearos": {
-    "font_name": "default"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "default",
+    "isForked": true
   },
   "background_image": "test.png",
   "bg_type": "image",
@@ -12,13 +18,15 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
     "bottom_left_border_width": 0,
     "bottom_right_border_color": "000000ff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "customCSS": "background-image: url(\"https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg\");\nbackground-size: cover;\n\n\n",
+    "customCSS": "background-image: url(\"../../images/webloginbg.jpg\");\nbackground-size: cover;\n\n\n",
     "font_name": "Helvetica",
     "isCustomCSSEnabled": true,
     "isForked": true,
@@ -30,24 +38,35 @@
     "top_right_border_width": 0
   },
   "ipad": {
-    "font_name": "System"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "System",
+    "isForked": true
   },
   "iphone": {
-    "font_name": "System"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "System",
+    "isForked": true
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_name": "None"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "None",
+    "isForked": true
   },
   "kuid": "s32ac9f199534a1ea0688ee8346cad58",
   "spaan": {
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
     "bottom_left_border_width": 0,
     "bottom_right_border_color": "000000ff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "customCSS": "background-image: url(\"https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg\");\nbackground-size: cover;\n\n\n",
+    "customCSS": "background-image: url(\"../../images/webloginbg.jpg\");\nbackground-size: cover;\n\n\n",
     "font_name": "Helvetica",
     "isCustomCSSEnabled": true,
     "isForked": true,
@@ -59,13 +78,15 @@
     "top_right_border_width": 0
   },
   "spaandroidtablet": {
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
     "bottom_left_border_width": 0,
     "bottom_right_border_color": "000000ff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "customCSS": "background-image: url(\"https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg\");\nbackground-size: cover;\n\n\n",
+    "customCSS": "background-image: url(\"../../images/webloginbg.jpg\");\nbackground-size: cover;\n\n\n",
     "font_name": "Helvetica",
     "isCustomCSSEnabled": true,
     "isForked": true,
@@ -77,13 +98,15 @@
     "top_right_border_width": 0
   },
   "spaip": {
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
     "bottom_left_border_width": 0,
     "bottom_right_border_color": "000000ff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "customCSS": "background-image: url(\"https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg\");\nbackground-size: cover;\n\n\n",
+    "customCSS": "background-image: url(\"../../images/webloginbg.jpg\");\nbackground-size: cover;\n\n\n",
     "font_name": "Helvetica",
     "isCustomCSSEnabled": true,
     "isForked": true,
@@ -95,13 +118,15 @@
     "top_right_border_width": 0
   },
   "spaipad": {
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
     "bottom_left_border_width": 0,
     "bottom_right_border_color": "000000ff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "customCSS": "background-image: url(\"https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg\");\nbackground-size: cover;\n\n\n",
+    "customCSS": "background-image: url(\"../../images/webloginbg.jpg\");\nbackground-size: cover;\n\n\n",
     "font_name": "Helvetica",
     "isCustomCSSEnabled": true,
     "isForked": true,
@@ -113,13 +138,15 @@
     "top_right_border_width": 0
   },
   "spawindowstablet": {
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
     "bottom_left_border_width": 0,
     "bottom_right_border_color": "000000ff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "customCSS": "background-image: url(\"https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg\");\nbackground-size: cover;\n\n\n",
+    "customCSS": "background-image: url(\"../../images/webloginbg.jpg\");\nbackground-size: cover;\n\n\n",
     "font_name": "Helvetica",
     "isCustomCSSEnabled": true,
     "isForked": true,
@@ -131,13 +158,15 @@
     "top_right_border_width": 0
   },
   "spawinphone8": {
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
     "bottom_left_border_color": "000000ff",
     "bottom_left_border_style": "plain",
     "bottom_left_border_width": 0,
     "bottom_right_border_color": "000000ff",
     "bottom_right_border_style": "plain",
     "bottom_right_border_width": 0,
-    "customCSS": "background-image: url(\"https://static.vecteezy.com/system/resources/previews/004/697/688/original/curve-light-blue-background-abstract-free-vector.jpg\");\nbackground-size: cover;\n\n\n",
+    "customCSS": "background-image: url(\"../../images/webloginbg.jpg\");\nbackground-size: cover;\n\n\n",
     "font_name": "Helvetica",
     "isCustomCSSEnabled": true,
     "isForked": true,
@@ -149,16 +178,25 @@
     "top_right_border_width": 0
   },
   "tabrcandroid": {
-    "font_name": "default"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "default",
+    "isForked": true
   },
   "wType": "FlexContainer",
   "watchos": {
     "font_name": "System"
   },
   "windows8": {
-    "font_name": "None"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "None",
+    "isForked": true
   },
   "winphone8": {
-    "font_name": "None"
+    "background_image": "webloginbg.jpg",
+    "bg_type": "image",
+    "font_name": "None",
+    "isForked": true
   }
 }

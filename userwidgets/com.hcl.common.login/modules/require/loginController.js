@@ -41,7 +41,6 @@ define(["Skins"], function (skins) {
     },
 
     showError: function() {
-      debugger;
       this.view.lblErrorText.isVisible = true;
       this.view.inputPassword.text = "";
       this.view.inputUsername.text = "";
@@ -94,6 +93,7 @@ define(["Skins"], function (skins) {
           password: this.view.inputPassword.text
         };
 
+        showLoadingScreen();
         this.onLogin(credentials);
       };
 
@@ -126,10 +126,6 @@ define(["Skins"], function (skins) {
       };
     },
 
-//     getIdentityService: function() {
-//       return new voltmx.sdk.getDefaultInstance().getIdentityService("schoolLogin");
-//     },
-
     onLogin: function(credentials) {
       let identityService = new voltmx.sdk.getDefaultInstance().getIdentityService("schoolLogin");
       identityService.login(credentials, this.onLoginSuccessCallback, this.onLoginErrorCallback);
@@ -152,6 +148,7 @@ define(["Skins"], function (skins) {
 
     onLoginErrorCallback: function(error) {
       this.showError();
+      dismissLoadingScreen();
     },
 
     getUserAttributes: function() {
@@ -162,9 +159,11 @@ define(["Skins"], function (skins) {
     getUserAttributesSuccessCallback: function(response) {
       voltmx.store.setItem("userInfo", JSON.parse(response._provider_profile));
       Navigation.navigateTo("frmDashboard");
+      dismissLoadingScreen();
     },
 
     getUserAttributesErrorCallback: function(error) {
+      dismissLoadingScreen();
       alert("something went wrong");
     },
   };

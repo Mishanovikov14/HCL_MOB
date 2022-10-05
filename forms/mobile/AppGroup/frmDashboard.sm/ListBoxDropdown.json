@@ -25,19 +25,22 @@
     "_skin_": "s582a2f0a3a040429dae8cbb758d7ee9",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "android": {
-        "psp": {}
+        "psp": {
+            "applySkinsToPopup": false
+        }
     },
+    "applyskinstopopup": false,
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "dropdownimage": "downarrow.png",
+    "dropdownimage": "down_arrow.png",
     "focusskin": "s582a2f0a3a040429dae8cbb758d7ee9",
     "groupcells": false,
     "id": "ListBoxDropdown",
@@ -60,7 +63,7 @@
         ]
     ],
     "name": "kony.ui.ListBox",
-    "parent": "flxDropdown",
+    "parent": "flxListBox",
     "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

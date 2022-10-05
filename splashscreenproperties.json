@@ -45,7 +45,7 @@
             "winphone10": {},
             "winphone8": {},
             "splashImage": "splashscreen.png",
-            "showLoadingIndicator": false
+            "showLoadingIndicator": true
         },
         "tablet": {
             "android": {},

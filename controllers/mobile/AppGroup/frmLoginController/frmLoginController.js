@@ -1,8 +1,4 @@
 define({ 
-  onViewCreated: function() {
-    this.view.preShow = this.preShow;
-  },
-
   onNavigate: function() {  
     this.view.login.resetUi();
     
@@ -13,10 +9,4 @@ define({
       this.view.login.usernameText = rememberMe.userid;
     }
   },
-  
- 
-
-  preShow: function() {
-
-  }
 });

@@ -18,7 +18,7 @@
         0
     ],
     "_skin_": "saf272e83b944112aa1c19d05124adeb",
-    "_text_": "Class",
+    "_text_": "Age",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -39,9 +39,10 @@
         "type": "string",
         "value": "50%"
     },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblClass",
+    "id": "lbl3",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d2e59c52ed554d098fec27ca0b015e52",
+    "kuid": "g83d45fae5f848d085efcf521af5110e",
     "name": "kony.ui.Label",
-    "parent": "flxClass",
-    "pf": "frmDashboard",
+    "parent": "flxAgeText",
+    "pf": "studentsRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

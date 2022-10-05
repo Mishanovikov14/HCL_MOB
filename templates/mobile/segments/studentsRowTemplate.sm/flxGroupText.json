@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50%"
     },
     "_left_": {
         "type": "string",
@@ -22,43 +26,34 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1f123f081e0478d8daf17e562316126",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s9fa1f184e1443188ed9c25c1c626344",
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "90%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "lblName"
+        "lbl6"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxName",
+    "id": "flxGroupText",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ffdff53ce5be4404a2473c00d427ab26",
+    "kuid": "a3a13ec128e4407b8f05927d6673558c",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxTitle",
-    "pf": "frmDashboard",
-    "responsiveconfig": {
-        "offset": {
-            "landscape": 0,
-            "portrait": 0
-        },
-        "span": {
-            "landscape": 6,
-            "portrait": 4
-        }
-    },
+    "parent": "flxGroup",
+    "pf": "studentsRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

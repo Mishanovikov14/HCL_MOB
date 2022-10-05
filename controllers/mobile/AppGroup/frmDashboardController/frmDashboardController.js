@@ -2,86 +2,111 @@ define({
   students: [
     {
       name: "Jack Sparrow",
-      class: "1",
-      raiting: "A",
+      id: "1",
+      age: "10",
+      group: "Math"
     },
     {
-      name: "Mariya Nadelyaeva",
-      class: "11",
-      raiting: "B",
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
     },
     {
       name: "Jack Sparrow",
-      class: "1",
-      raiting: "A",
+      id: "1",
+      age: "10",
+      group: "Math"
     },
     {
-      name: "Mariya Nadelyaeva",
-      class: "11",
-      raiting: "B",
-    },   
-    {
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
+    }, {
       name: "Jack Sparrow",
-      class: "1",
-      raiting: "A",
+      id: "1",
+      age: "10",
+      group: "Math"
     },
     {
-      name: "Mariya Nadelyaeva",
-      class: "11",
-      raiting: "B",
-    },   
-    {
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
+    }, {
       name: "Jack Sparrow",
-      class: "1",
-      raiting: "A",
+      id: "1",
+      age: "10",
+      group: "Math"
     },
     {
-      name: "Mariya Nadelyaeva",
-      class: "11",
-      raiting: "B",
-    },   
-    {
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
+    }, {
       name: "Jack Sparrow",
-      class: "1",
-      raiting: "A",
+      id: "1",
+      age: "10",
+      group: "Math"
     },
     {
-      name: "Mariya Nadelyaeva",
-      class: "11",
-      raiting: "B",
-    },   
-    {
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
+    },
+     {
       name: "Jack Sparrow",
-      class: "1",
-      raiting: "A",
+      id: "1",
+      age: "10",
+      group: "Math"
     },
     {
-      name: "Mariya Nadelyaeva",
-      class: "11",
-      raiting: "B",
-    },   
-    {
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
+    },
+     {
       name: "Jack Sparrow",
-      class: "1",
-      raiting: "A",
+      id: "1",
+      age: "10",
+      group: "Math"
     },
     {
-      name: "Mariya Nadelyaeva",
-      class: "11",
-      raiting: "B",
-    }   
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
+    },
+     {
+      name: "Jack Sparrow",
+      id: "1",
+      age: "10",
+      group: "Math"
+    },
+    {
+      name: "Mariya Novikova",
+      id: "2",
+      age: "12",
+      group: "Hystory"
+    },
   ],
+  userData: voltmx.store.getItem("userInfo"),
 
   onViewCreated: function() {
     this.view.preShow = this.preShow;
   },
 
   onNavigate: function() {
-	this.mapStudents(this.students);
+    this.mapStudents(this.students);
+    this.view.commonHeader.lblTitle.text = "Hello, " + this.userData.firstName + "!";
     this.view.ListBoxDropdown.masterData = [
-      ["key1", "value1"],
-      ["key2", "value2"],
-      ["key3", "value3"]
+      ["key1", "Class 9"],
+      ["key2", "Class 10"],
+      ["key3", "Class 11"]
     ];
     this.view.ListBoxDropdown.selectedKey = "key1";
   },
@@ -99,7 +124,7 @@ define({
     this.view.commonHeader.flxLogout.onClick = () => {
       Navigation.navigateTo("frmLogin");
     };
-    
+
     this.view.ListBoxDropdown.onSelection = () => {
       alert("The selected key value of the listbox is: " + this.view.ListBoxDropdown.selectedKeyValue);
     };
@@ -111,9 +136,12 @@ define({
       let mapedStudentsData = [];
       students.forEach(function(student, index) {
         mapedStudentsData.push({
-          "lblName": {"text": student.name},
-          "lblClass": {"text": student.class},
-          "lblRaiting": {"text": student.raiting},
+          "lbl1": {"text": student.name},
+          "lbl2": {"text": "ID: " + student.id},
+          "lbl3": {"text": "Age"},
+          "lbl4": {"text": student.age},
+          "lbl5": {"text": "Group"},
+          "lbl6": {"text": student.group},
         });
       });
       this.view.segStudents.setData(mapedStudentsData);

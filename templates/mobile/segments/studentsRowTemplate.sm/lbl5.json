@@ -18,7 +18,7 @@
         0
     ],
     "_skin_": "saf272e83b944112aa1c19d05124adeb",
-    "_text_": "Raiting",
+    "_text_": "Group",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -39,9 +39,10 @@
         "type": "string",
         "value": "50%"
     },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblRaiting",
+    "id": "lbl5",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a528ca49f736458492fca3f50af9d092",
+    "kuid": "cb6a9de9c4c441e5abd74cbb50d1dc0f",
     "name": "kony.ui.Label",
-    "parent": "flxRaiting",
-    "pf": "frmDashboard",
+    "parent": "flxGroupTitle",
+    "pf": "studentsRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

@@ -35,21 +35,20 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblClass"
+        "lblAge"
     ],
     "clipbounds": true,
-    "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxClass",
+    "id": "flxAge",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "daf147492a8e458694c2347da93f0405",
+    "kuid": "c635c3728290425bacc154d63bf78bd7",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContainer",
-    "pf": "studentsRowTemplate",
+    "parent": "flxTitle",
+    "pf": "frmDashboard",
     "responsiveconfig": {
         "offset": {
             "landscape": 0,

@@ -25,18 +25,18 @@
     "_skin_": "s1f123f081e0478d8daf17e562316126",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "20dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50%"
     },
     "allboxes": [],
     "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
         "lblDropdownTitle",
-        "ListBoxDropdown"
+        "flxListBox"
     ],
     "clipbounds": true,
     "containerweight": 100,

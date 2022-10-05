@@ -35,16 +35,16 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblName"
+        "lblLastname"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxName",
+    "id": "flxLastname",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ffdff53ce5be4404a2473c00d427ab26",
+    "kuid": "b74e0c8421d7446da0c2616e1a37df7d",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxTitle",

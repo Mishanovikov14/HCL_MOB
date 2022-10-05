@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50%"
     },
     "_left_": {
         "type": "string",
@@ -35,30 +35,21 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblName"
+        "lbl1"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxName",
+    "id": "flxFullName",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ffdff53ce5be4404a2473c00d427ab26",
+    "kuid": "de55f17255994affbda0430ddb8e3bb1",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxTitle",
-    "pf": "frmDashboard",
-    "responsiveconfig": {
-        "offset": {
-            "landscape": 0,
-            "portrait": 0
-        },
-        "span": {
-            "landscape": 6,
-            "portrait": 4
-        }
-    },
+    "parent": "flxName",
+    "pf": "studentsRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

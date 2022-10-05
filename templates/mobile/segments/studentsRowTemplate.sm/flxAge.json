@@ -29,36 +29,28 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "50%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblName"
+        "flxAgeText",
+        "flxAgeNumber"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxName",
+    "id": "flxAge",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ffdff53ce5be4404a2473c00d427ab26",
+    "kuid": "e70067b97e764a8e8098270ab8f38ad0",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxTitle",
-    "pf": "frmDashboard",
-    "responsiveconfig": {
-        "offset": {
-            "landscape": 0,
-            "portrait": 0
-        },
-        "span": {
-            "landscape": 6,
-            "portrait": 4
-        }
-    },
+    "parent": "flxEditionalInfo",
+    "pf": "studentsRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
