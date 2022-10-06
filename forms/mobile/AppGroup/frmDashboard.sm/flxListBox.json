@@ -47,7 +47,7 @@
     "kuid": "c5b29c5cde3c4af69b6cbb62f3099504",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxDropdown",
+    "parent": "flxDropdownFiltering",
     "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

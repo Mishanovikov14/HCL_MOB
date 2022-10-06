@@ -1,0 +1,173 @@
+{
+  "android": {
+    "font_name": "Montserrat-Regular",
+    "font_size": 100,
+    "isForked": false
+  },
+  "androidwearos": {
+    "font_size": 100,
+    "isForked": false
+  },
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "33333300",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "delinkedPltfrms": {
+    "androidwear": [],
+    "desktop": [
+      "desktopweb"
+    ],
+    "mobile": [],
+    "tablet": [],
+    "watch": []
+  },
+  "desktopweb": {
+    "customCSS": "font-size: 18px;\nfont-weight: 400;\nfont-family: 'Open Sans', sans-serif;\ncolor: #4f5f6f;\noutline: none;",
+    "font_name": "OpenSans-Regular",
+    "font_size": 113,
+    "isCustomCSSEnabled": true,
+    "isForked": true
+  },
+  "fontSizeInPx": false,
+  "font_color": "192129ff",
+  "font_name": "iphoneSystem",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "400",
+  "ipad": {
+    "font_size": 100,
+    "isForked": false
+  },
+  "iphone": {
+    "font_name": "Montserrat-Regular",
+    "font_size": 100,
+    "isForked": false
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_size": 100,
+    "isForked": false
+  },
+  "kuid": "scb0028dbf6844c8956a98520b251264",
+  "spaan": {
+    "bottom_left_border_color": "33333300",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "33333300",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_size": 107,
+    "isCustomCSSEnabled": false,
+    "isForked": true,
+    "top_left_border_color": "33333300",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "33333300",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spaandroidtablet": {
+    "bottom_left_border_color": "33333300",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "33333300",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_size": 89,
+    "isCustomCSSEnabled": false,
+    "isForked": true,
+    "top_left_border_color": "33333300",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "33333300",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spaip": {
+    "bottom_left_border_color": "33333300",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "33333300",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_size": 103,
+    "isCustomCSSEnabled": false,
+    "isForked": true,
+    "top_left_border_color": "33333300",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "33333300",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spaipad": {
+    "bottom_left_border_color": "33333300",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "33333300",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_size": 94,
+    "isCustomCSSEnabled": false,
+    "isForked": true,
+    "top_left_border_color": "33333300",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "33333300",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spawindowstablet": {
+    "bottom_left_border_color": "33333300",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "33333300",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_size": 94,
+    "isCustomCSSEnabled": false,
+    "isForked": true,
+    "top_left_border_color": "33333300",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "33333300",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "spawinphone8": {
+    "bottom_left_border_color": "33333300",
+    "bottom_left_border_style": "plain",
+    "bottom_left_border_width": 0,
+    "bottom_right_border_color": "33333300",
+    "bottom_right_border_style": "plain",
+    "bottom_right_border_width": 0,
+    "font_size": 133,
+    "isCustomCSSEnabled": false,
+    "isForked": true,
+    "top_left_border_color": "33333300",
+    "top_left_border_style": "plain",
+    "top_left_border_width": 0,
+    "top_right_border_color": "33333300",
+    "top_right_border_style": "plain",
+    "top_right_border_width": 0
+  },
+  "tabrcandroid": {
+    "font_size": 100,
+    "isForked": false
+  },
+  "wType": "TextField",
+  "watchos": {
+    "font_size": 100,
+    "isForked": false
+  },
+  "windows8": {
+    "font_size": 100,
+    "isForked": false
+  },
+  "winphone8": {
+    "font_size": 100,
+    "isForked": false
+  }
+}

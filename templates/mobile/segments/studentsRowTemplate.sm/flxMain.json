@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "90dp"
+        "value": "65dp"
     },
     "_left_": {
         "type": "string",
@@ -22,11 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s01470aa5d574a54b9798ba14adad655",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
+    "_skin_": "s89b03db723d477a8a4c60264f6a6de7",
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -39,6 +35,7 @@
         "value": "50%"
     },
     "children": [
+        "flxImg",
         "flxName",
         "flxEditionalInfo"
     ],
@@ -53,7 +50,7 @@
     "kuid": "ff24878c21ab42cbafe50c6e5cef8fd5",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContainer",
+    "parent": "flxRowMale",
     "pf": "studentsRowTemplate",
     "responsiveconfig": {
         "offset": {

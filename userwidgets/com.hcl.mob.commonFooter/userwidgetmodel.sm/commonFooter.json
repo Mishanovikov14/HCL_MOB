@@ -35,18 +35,25 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "btnHome",
-        "btnAboutUs"
+        "flxBtn1",
+        "flxBtn2",
+        "flxBtn3"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "desktopweb": {
+        "render": true
+    },
     "enablescrolling": true,
     "id": "commonFooter",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g9d856d147ce4116822f36e1f7430756",
-    "layouttype": 2,
+    "kiosk": {
+        "render": false
+    },
+    "kuid": "f15f422f08e94e5bb40a1e9a165c7700",
+    "layouttype": 5,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",

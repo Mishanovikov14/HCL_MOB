@@ -21,7 +21,7 @@
     "allboxes": [],
     "canUpdateUI": true,
     "children": [
-        "flxContainer"
+        "flxRowMale"
     ],
     "containerId": true,
     "containerweight": 100,

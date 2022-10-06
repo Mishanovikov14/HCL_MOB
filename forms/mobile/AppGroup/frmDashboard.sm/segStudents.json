@@ -6,270 +6,630 @@
         "value": "15dp"
     },
     "_data_": [
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
+        [
+            {
+                "lblGender": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Girls"
+                }
             },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
+            [
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "lblGender": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Girls"
+                }
             },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        },
-        {
-            "lbl1": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl2": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Lastname"
-            },
-            "lbl3": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "fullname"
-            },
-            "lbl4": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl5": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Age"
-            },
-            "lbl6": {
-                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "12"
-            }
-        }
+            [
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                },
+                {
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "woman.png"
+                    },
+                    "lbl1": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl2": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Lastname"
+                    },
+                    "lbl3": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "fullname"
+                    },
+                    "lbl4": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl5": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Age"
+                    },
+                    "lbl6": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "12"
+                    }
+                }
+            ]
+        ]
     ],
     "_height_": {
         "type": "string",
-        "value": "500dp"
+        "value": "460dp"
     },
     "_indicator_": "none",
     "_left_": {
@@ -300,11 +660,11 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "containerweight": 100,
-    "counter": "09",
+    "counter": "19",
     "focusedindex": null,
     "focuseditem": null,
     "groupcells": false,
-    "hasSections": false,
+    "hasSections": true,
     "id": "segStudents",
     "info": null,
     "ipad": {
@@ -339,8 +699,10 @@
     "rowskin": "s98689945d6f416fa719eeffeeeec2fe",
     "rowtemplate": "flxContainer",
     "screenlevelwidget": false,
-    "seccounter": 0,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "a805214e16ae439eb4fc5781bcce45b5",
     "sectionheaderskin": "s168997d9e0241719c67d45e74d8e110",
+    "sectionheadertemplate": "flxTitle",
     "selectedRows": null,
     "selectedState": false,
     "selectedindex": null,
@@ -348,7 +710,8 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorrequired": false,
+    "separatorcolor": "00000000",
+    "separatorrequired": true,
     "showscrollbars": false,
     "viewtype": "tableview",
     "vizProps": {},
@@ -358,21 +721,25 @@
         "flxAge": "flxAge",
         "flxAgeNumber": "flxAgeNumber",
         "flxAgeText": "flxAgeText",
-        "flxContainer": "flxContainer",
         "flxEditionalInfo": "flxEditionalInfo",
         "flxFullName": "flxFullName",
         "flxGroup": "flxGroup",
         "flxGroupText": "flxGroupText",
         "flxGroupTitle": "flxGroupTitle",
+        "flxHeaderMale": "flxHeaderMale",
         "flxID": "flxID",
+        "flxImg": "flxImg",
         "flxMain": "flxMain",
         "flxName": "flxName",
+        "flxRowMale": "flxRowMale",
+        "imgIcon": "imgIcon",
         "lbl1": "lbl1",
         "lbl2": "lbl2",
         "lbl3": "lbl3",
         "lbl4": "lbl4",
         "lbl5": "lbl5",
-        "lbl6": "lbl6"
+        "lbl6": "lbl6",
+        "lblGender": "lblGender"
     },
     "zindex": 1
 }

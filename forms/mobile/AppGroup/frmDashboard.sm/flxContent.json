@@ -39,8 +39,8 @@
         "value": "50%"
     },
     "children": [
-        "flxDropdown",
-        "flxTitle",
+        "search",
+        "flxDropdowns",
         "segStudents"
     ],
     "clipbounds": true,

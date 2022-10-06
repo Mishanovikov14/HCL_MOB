@@ -1,0 +1,41 @@
+{
+  "androidwearos": {
+    "font_name": "default"
+  },
+  "background_color": "7e26c7ff",
+  "bg_type": "one",
+  "border_color": "7e26c7ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_name": "Helvetica"
+  },
+  "ipad": {
+    "font_name": "System"
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_name": "None"
+  },
+  "kuid": "se49fdbbc8a54f08b26fa5ee2b8e1ed4",
+  "spaandroidtablet": {
+    "font_name": "Helvetica"
+  },
+  "spaipad": {
+    "font_name": "Helvetica"
+  },
+  "spawindowstablet": {
+    "font_name": "Helvetica"
+  },
+  "tabrcandroid": {
+    "font_name": "default"
+  },
+  "wType": "FlexContainer",
+  "watchos": {
+    "font_name": "System"
+  },
+  "windows8": {
+    "font_name": "None"
+  }
+}

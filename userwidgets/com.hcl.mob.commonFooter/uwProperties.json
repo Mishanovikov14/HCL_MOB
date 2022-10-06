@@ -16,7 +16,25 @@
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "j011bc1fcc9e492988674e7add59f3a9",
+                    "originalPropertyKey": "currentForm",
+                    "propertyIndex": 1,
+                    "propertyKey": "currentForm",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "currentForm",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f15f422f08e94e5bb40a1e9a165c7700",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
             "passthrough": []
         },
         "widgets": {
