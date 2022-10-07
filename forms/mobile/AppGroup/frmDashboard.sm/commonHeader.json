@@ -46,6 +46,18 @@
                 "kuid": "j6bb497e8e2a409e842c95a31bfe92dc",
                 "srcKUID": "b870232e3cc245cc857ed41d039d0002",
                 "wType": "FlexContainer"
+            },
+            "left": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "string",
+                    "value": "0dp"
+                }
             }
         },
         "flxGoBack": {
@@ -70,7 +82,8 @@
                 "kuid": "b149a0695d384fa383e8b6193cbc3ce6",
                 "srcKUID": "db3b0260bc83429e94ac66f927f96149",
                 "wType": "Image"
-            }
+            },
+            "src": "previous.png"
         },
         "imgLogout": {
             "__events__": {},
@@ -78,7 +91,8 @@
                 "kuid": "hc92d39272cc4283aeae45b200eceb7c",
                 "srcKUID": "a1d6127fd6334551b57646b3ec1c9948",
                 "wType": "Image"
-            }
+            },
+            "src": "logout.png"
         },
         "lblTitle": {
             "__events__": {},

@@ -64,6 +64,15 @@ define(["Skins"], function (skins) {
 
     onViewCreated: function() {
       this.view.postShow = this.postShow;
+      this.view.preShow = this.preShow;
+    },
+    
+    preShow: function() {
+      if (voltmx.os.deviceInfo().name === "thinclient") {
+        this.view.skin = skins.SKIN_LOGIN_BACKGROUND_WEB;
+      } else {
+        this.view.skin = skins.SKIN_LOGIN_BACKGROUND;
+      }
     },
 
     postShow: function() {
@@ -75,10 +84,6 @@ define(["Skins"], function (skins) {
         elements.forEach(function(element) {
           element.style.outline = "none";
         });
-
-        this.view.skin = skins.SKIN_LOGIN_BACKGROUND_WEB;
-      } else {
-        this.view.skin = skins.SKIN_LOGIN_BACKGROUND;
       }
     },
 
@@ -158,6 +163,8 @@ define(["Skins"], function (skins) {
 
     getUserAttributesSuccessCallback: function(response) {
       voltmx.store.setItem("userInfo", JSON.parse(response._provider_profile));
+      voltmx.store.setItem("userType", response.groups[0]);
+
       Navigation.navigateTo("frmDashboard");
       dismissLoadingScreen();
     },

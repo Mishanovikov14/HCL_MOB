@@ -36,7 +36,7 @@
     "containerId": true,
     "containerweight": 100,
     "id": "imgIcon",
-    "imagescalemode": 1,
+    "imagescalemode": 0,
     "info": null,
     "invokedProperty": "src",
     "iscustomlayout": false,

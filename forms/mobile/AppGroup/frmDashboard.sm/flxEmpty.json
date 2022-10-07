@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
-    "_height_": {
-        "type": "ref",
-        "value": "preferred"
+    "_bottom_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,31 +25,26 @@
     "_skin_": "s1f123f081e0478d8daf17e562316126",
     "_top_": {
         "type": "string",
-        "value": "130dp"
+        "value": "210dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 1,
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "flxDropdownFiltering",
-        "flxDropdownSorting"
+        "lblEmpty"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxDropdowns",
+    "id": "flxEmpty",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "he9ef9fe15e341afbe4becac3d193fda",
+    "isvisible": false,
+    "kuid": "a8f97a4a298d4a0f8428c36a2c513707",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "frmDashboard",

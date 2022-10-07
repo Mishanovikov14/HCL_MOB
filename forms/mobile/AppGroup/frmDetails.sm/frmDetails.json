@@ -29,30 +29,23 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [
-        "commonHeader",
-        "search",
-        "flxDropdowns",
-        "flxContent",
-        "flxEmpty",
-        "commonFooter"
-    ],
+    "children": [],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmDashboardController"
+            "name": "frmDetailsController"
         }
     },
     "currentLocale": "default",
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel6",
+    "device": "iPhone13",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "friendlyName": "frmDashboard",
-    "id": "frmDashboard",
+    "friendlyName": "frmDetails",
+    "id": "frmDetails",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -70,7 +63,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "e7741c5ae5244edbaa9648d63dd5af2c",
+                "kuid": "bbe3c2b8bcd74cb3b99ae815901755fe",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -81,7 +74,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "e72d82ae502e4c5b8ac86ea14776271c",
+                        "kuid": "c98600f7a93343f2b90809abdf5fb49b",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -98,12 +91,12 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "c79ae577baac48f591cfe6aeb0befdaa",
+    "kuid": "e1bae2072e7b4aba8fb82d3062d55d6c",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
+    "platform": "iphone",
     "prevDevice": "iPhone13",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,

@@ -1,136 +1,9 @@
 define({
-  students: [
-    {
-      name: "Jack Sparrow",
-      id: 1,
-      age: 14,
-      group: "Math",
-      gender: "Male",
-      class: "Class 9"
-    },
-    {
-      name: "Mariya Novikova",
-      id: 2,
-      age: 15,
-      group: "Hystory",
-      gender: "Female",
-      class: "Class 10"
-    },
-    {
-      name: "Jack Richards",
-      id: 3,
-      age: 16,
-      group: "Math",
-      gender: "Male",
-      class: "11",
-    },
-    {
-      name: "Morgan Freeman",
-      id: 4,
-      age: 17,
-      group: "History",
-      gender: "Male",
-      class: "Class 11"
-    },
-    {
-      name: "Daria Novikova",
-      id: 5,
-      age: 13,
-      group: "Hystory",
-      gender: "Female",
-      class: "Class 9"
-    },
-    {
-      name: "Jack Richards",
-      id: 6,
-      age: 16,
-      group: "Math",
-      gender: "Male",
-      class: "10",
-    },
-    {
-      name: "Jack Sparrow",
-      id: 7,
-      age: 14,
-      group: "Math",
-      gender: "Male",
-      class: "Class 9"
-    },
-    {
-      name: "Mariya Novikova",
-      id: 8,
-      age: 15,
-      group: "Hystory",
-      gender: "Female",
-      class: "Class 10"
-    },
-    {
-      name: "Jack Richards",
-      id: 9,
-      age: 16,
-      group: "Math",
-      gender: "Male",
-      class: "11",
-    },
-    {
-      name: "Morgan Freeman",
-      id: 10,
-      age: 17,
-      group: "History",
-      gender: "Male",
-      class: "Class 11"
-    },
-    {
-      name: "Daria Novikova",
-      id: 11,
-      age: 13,
-      group: "Hystory",
-      gender: "Female",
-      class: "Class 9"
-    },
-    {
-      name: "Jack Richards",
-      id: 12,
-      age: 16,
-      group: "Math",
-      gender: "Male",
-      class: "Class 10",
-    },
-    {
-      name: "Jack London",
-      id: 120,
-      age: 16,
-      group: "Math",
-      gender: "Male",
-      class: "Class 9",
-    },
-    {
-      name: "Anton Richards",
-      id: 13,
-      age: 11,
-      group: "Math",
-      gender: "Male",
-      class: "Class 9",
-    },
-    {
-      name: "Arina London",
-      id: 121,
-      age: 16,
-      group: "Math",
-      gender: "Female",
-      class: "Class 9",
-    },
-    {
-      name: "Arina Richards",
-      id: 14,
-      age: 11,
-      group: "Math",
-      gender: "Female",
-      class: "Class 9",
-    },
-  ],
+  students: [],
   filteredArr: [],
-  userData: voltmx.store.getItem("userInfo"),
+  currentClass: "",
+  userData: {},
+  usderType: "",
 
   onViewCreated: function() {
     this.view.preShow = this.preShow;
@@ -138,8 +11,10 @@ define({
 
   onNavigate: function() {
     debugger;
-    this.mapStudents(this.students);
-    this.view.commonHeader.lblTitle.text = "Hello, " + this.userData.firstName + "!";
+    this.view.flxContent.isVisible = false;
+    this.view.flxEmpty.isVisible = false;
+    this.userData = voltmx.store.getItem("userInfo");
+    this.usderType = voltmx.store.getItem("userType");
 
     this.view.ListBoxDropdown.masterData = [
       ["key1", "Class 9"],
@@ -155,16 +30,58 @@ define({
       ["id", "By ID"],
     ];
     this.view.ListBoxDropdownFilter.selectedKey = "name";
-
-    this.onSelection();
-    this.onSorting();
   },
 
   preShow: function() {
     this.view.commonHeader.flxGoBack.isVisible = false;
-    this.initAction();
+    this.view.commonHeader.lblTitle.text = "Hello, " + this.userData.firstName + "!";
     this.view.commonFooter.currentForm = this.getCurrentForm();
     this.view.search.skin = "slFbox";
+    this.view.search.inputSearch.text = "";
+
+    this.initAction();
+    this.currentClass = this.view.ListBoxDropdown.selectedKeyValue[1].replace("Class ", "");
+    this.getStudentData(this.currentClass);
+  },
+
+  getStudentData: function(filter) {
+    let objSvc = voltmx.sdk.getDefaultInstance().getObjectService("StudentsDB", {
+      "access": "online"
+    });
+
+    let dataObject = new voltmx.sdk.dto.DataObject("students");
+    let odataUrl = "$filter=class eq " + filter;
+    dataObject.odataUrl = odataUrl;
+
+    let options = {
+      "dataObject": dataObject
+    };
+
+    showLoadingScreen();
+    objSvc.fetch(options, this.getStudentDataSuccess, this.getStudentDataError);
+  },
+
+  getStudentDataSuccess: function(response) {
+    dismissLoadingScreen();
+    if (response.httpresponse.responsecode === 200) {
+      this.students = response.records;
+      this.filteredArr = this.students;
+
+      this.onSorting();
+      this.view.flxContent.isVisible = true;
+      this.view.flxEmpty.isVisible = false;
+    } else {
+      //TODO
+      alert("Something wwent wrong");
+    }
+  },
+
+  getStudentDataError: function(error) {
+    dismissLoadingScreen();
+    //TODO
+    this.view.flxContent.isVisible = false;
+    this.view.flxEmpty.isVisible = true;
+    alert("Something wwent wrong");
   },
 
   initAction: function() {
@@ -173,11 +90,37 @@ define({
     };
 
     this.view.ListBoxDropdown.onSelection = () => {
-      this.onSelection();
+      this.currentClass = this.view.ListBoxDropdown.selectedKeyValue[1].replace("Class ", "");
+      this.getStudentData(this.currentClass);
+      this.view.search.inputSearch.text = "";
     };
 
     this.view.ListBoxDropdownFilter.onSelection = () => {
       this.onSorting();
+    };
+
+    this.view.search.flxSearchIcon.onTouchStart = () => {
+      let searchText = this.view.search.inputSearch.text.trim();
+      
+      if (searchText.length > 0) {
+        this.filteredArr = this.students.filter((student) => {
+          return student.name.toLowerCase().includes(searchText.toLowerCase());
+        });
+      } else {
+        this.filteredArr = this.students;
+      }
+      
+      this.onSorting();
+      this.mapStudents(this.filteredArr);
+    };
+
+    this.view.search.flxClearBtn.onTouchStart = () => {
+      this.view.search.inputSearch.text = "";
+      
+      if (this.filteredArr !== this.students) {
+        this.currentClass = this.view.ListBoxDropdown.selectedKeyValue[1].replace("Class ", "");
+        this.getStudentData(this.currentClass);
+      }
     };
   },
 
@@ -201,16 +144,6 @@ define({
     this.mapStudents(this.filteredArr);
   },
 
-  onSelection: function() {
-    let slectedClass = this.view.ListBoxDropdown.selectedKeyValue[1];
-    this.filteredArr = this.students.filter(function(student) {
-      return student.class === slectedClass;
-    });
-
-    this.onSorting();
-    this.mapStudents(this.filteredArr);
-  },
-
   mapStudents: function(students) {
     let mapedStudentsData = [];
     let mapedFemaleStudentsData = [];
@@ -229,7 +162,7 @@ define({
         "lbl1": {"text": student.name},
         "lbl2": {"text": "ID: " + student.id},
         "lbl3": {"text": "Age"},
-        "lbl4": {"text": Math.round(student.age)},
+        "lbl4": {"text": student.age.toString()},
         "lbl5": {"text": "Group"},
         "lbl6": {"text": student.group},
         "imgIcon" : {"src" : "man.png"},
@@ -242,7 +175,7 @@ define({
         "lbl1": {"text": student.name},
         "lbl2": {"text": "ID: " + student.id},
         "lbl3": {"text": "Age"},
-        "lbl4": {"text": Math.round(student.age)},
+        "lbl4": {"text": student.age.toString()},
         "lbl5": {"text": "Group"},
         "lbl6": {"text": student.group},
         "imgIcon" : {"src" : "woman.png"},
@@ -254,6 +187,7 @@ define({
       [{"template": "flxHeaderFemale", "lblGender": {"text": "Girls"}}, mapedFemaleStudentsData],
       [{"template": "flxHeaderMale", "lblGender": {"text": "Boys"}}, mapedMaleStudentsData]
     ];
+
 
     if (mapedFemaleStudentsData.length < 1) {
       mapedStudentsData = [
@@ -267,28 +201,36 @@ define({
       ];
     }
 
+    if (mapedMaleStudentsData.length < 1 && mapedFemaleStudentsData.length < 1) {
+      this.view.flxContent.isVisible = false;
+      this.view.flxEmpty.isVisible = true;
+      return;
+    }
+
     this.view.segStudents.setData(mapedStudentsData);
   },
 
-  //   showDetails: function(eguiWidget, sectionNumber, rowNumber, selectedState) {
-  //     var selectedLoan = this.loansList[rowNumber];
-  //     if(selectedLoan.loan_application_status === "Saved" || selectedLoan.loan_application_status === "S") {
-  //       navigateToLoansApp(QNBConstants.formName.frmApplyForEloan,selectedLoan);
-  //     } else {
-  //       var dataForSegment = [
-  //         {"lbl1": kony.i18n.getLocalizedString("applicationNo"),
-  //          "lbl2": selectedLoan.loan_appl_ref_no},
-  //         {"lbl1": kony.i18n.getLocalizedString("loanType"),
-  //          "lbl2": selectedLoan.loan_application_type},
-  //         {"lbl1": kony.i18n.getLocalizedString("submissionDate"),
-  //          "lbl2": selectedLoan.loan_start_date},
-  //         {"lbl1": kony.i18n.getLocalizedString("status"),
-  //          "lbl2": selectedLoan.loan_application_status},
-  //         {"lbl1": kony.i18n.getLocalizedString("statusDetails"),
-  //          "lbl2": selectedLoan.facility_Purpose},
-  //       ];
-  //       var headerToDisplay = kony.i18n.getLocalizedString("loanApplicationStatus");
-  //       this.view.cmpDetailsPopUp.setSegData(dataForSegment,headerToDisplay);
-  //     }
-  //   },
+//     showDetails: function(eguiWidget, sectionNumber, rowNumber, selectedState) {
+//       var selectedLoan = this.loansList[rowNumber];
+//       if(selectedLoan.loan_application_status === "Saved" || selectedLoan.loan_application_status === "S") {
+//         navigateToLoansApp(QNBConstants.formName.frmApplyForEloan,selectedLoan);
+//       } else {
+//         var dataForSegment = [
+//           {"lbl1": kony.i18n.getLocalizedString("applicationNo"),
+//            "lbl2": selectedLoan.loan_appl_ref_no},
+//           {"lbl1": kony.i18n.getLocalizedString("loanType"),
+//            "lbl2": selectedLoan.loan_application_type},
+//           {"lbl1": kony.i18n.getLocalizedString("submissionDate"),
+//            "lbl2": selectedLoan.loan_start_date},
+//           {"lbl1": kony.i18n.getLocalizedString("status"),
+//            "lbl2": selectedLoan.loan_application_status},
+//           {"lbl1": kony.i18n.getLocalizedString("statusDetails"),
+//            "lbl2": selectedLoan.facility_Purpose},
+//         ];
+//         var headerToDisplay = kony.i18n.getLocalizedString("loanApplicationStatus");
+//         this.view.cmpDetailsPopUp.setSegData(dataForSegment,headerToDisplay);
+//       }
+//     },
+
+
 });
