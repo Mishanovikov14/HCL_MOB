@@ -36,8 +36,9 @@
     },
     "canUpdateUI": true,
     "children": [
-        "commonFooter",
-        "commonHeader"
+        "commonHeader",
+        "flxWebsite",
+        "commonFooter"
     ],
     "containerweight": 100,
     "controllerInfo": {

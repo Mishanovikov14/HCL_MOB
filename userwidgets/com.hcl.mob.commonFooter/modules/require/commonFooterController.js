@@ -15,7 +15,7 @@ define(["Skins"], function (skins) {
         componentConfig.currentForm = value;
         
         this.view.imgIcon1.src = componentConfig.currentForm === "frmDashboard" ? "home.png" : "homeactive.png";
-        this.view.imgIcon2.src = componentConfig.currentForm !== "frmAboutUs" ? "location.png" : "locationactive.png";
+        this.view.imgIcon2.src = componentConfig.currentForm !== "frmLocation" ? "location.png" : "locationactive.png";
         this.view.imgIcon3.src = componentConfig.currentForm !== "frmWebsite" ? "website.png" : "websiteactive.png";
       });
     },

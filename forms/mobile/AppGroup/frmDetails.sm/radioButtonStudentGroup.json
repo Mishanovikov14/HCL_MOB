@@ -1,0 +1,85 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sabb8d53861447e9827fe7fe885f5c59",
+    "_top_": {
+        "type": "string",
+        "value": "7dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "android": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "groupcells": false,
+    "id": "radioButtonStudentGroup",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "viewType": 0
+        }
+    },
+    "iphone": {
+        "psp": {
+            "viewType": 3
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "itemorientation": "horizontal",
+    "kuid": "f052a8d6695449408b799faf2a8860ab",
+    "masterdata": [
+        [
+            "key1",
+            "History"
+        ],
+        [
+            "key2",
+            "Math"
+        ]
+    ],
+    "name": "kony.ui.RadioButtonGroup",
+    "parent": "flxChangeGroup",
+    "pf": "frmDetails",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeyvalue": null,
+    "size": 18,
+    "tickedimage": "radio.png",
+    "untickedimage": "radio_button.png",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "RadioButtonGroup",
+    "widgetalignment": 5,
+    "zindex": 1
+}

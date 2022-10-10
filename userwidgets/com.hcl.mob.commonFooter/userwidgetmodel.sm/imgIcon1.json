@@ -20,16 +20,16 @@
     ],
     "_skin_": "s0277a0804294d11a674210fbaefb87c",
     "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_width_": {
         "type": "string",
         "value": "20dp"
     },
     "canUpdateUI": true,
     "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
         "type": "string",
         "value": "50%"
     },
@@ -41,7 +41,7 @@
     "isvisible": true,
     "kuid": "c97116e6ed654c97ab29c352e8fcdfb0",
     "name": "kony.ui.Image2",
-    "parent": "flxBtn1",
+    "parent": "flxContainerHome",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -36,14 +36,15 @@
     },
     "canUpdateUI": true,
     "children": [
-        "commonFooter",
-        "commonHeader"
+        "commonHeader",
+        "flxMap",
+        "commonFooter"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "frmAboutUsController"
+            "name": "frmLocationController"
         }
     },
     "currentLocale": "default",
@@ -53,8 +54,8 @@
     "device": "iPhone13",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "friendlyName": "frmAboutUs",
-    "id": "frmAboutUs",
+    "friendlyName": "frmLocation",
+    "id": "frmLocation",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

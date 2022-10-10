@@ -20,6 +20,10 @@
     ],
     "_skin_": "s0277a0804294d11a674210fbaefb87c",
     "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "10dp"
+    },
     "_width_": {
         "type": "string",
         "value": "20dp"
@@ -29,19 +33,15 @@
         "type": "string",
         "value": "50%"
     },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "id": "imgIcon2",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b913a38e281f480188b9e489f1402fc8",
+    "kuid": "d2e1bfad6daa49d59163c902668cf065",
     "name": "kony.ui.Image2",
-    "parent": "flxBtn2",
+    "parent": "flxContainerLocation",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

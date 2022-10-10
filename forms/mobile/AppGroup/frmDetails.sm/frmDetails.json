@@ -15,6 +15,12 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        0,
+        1,
+        0,
+        2
+    ],
     "_skin_": "sc02fd7129904267a805e059799e10e8",
     "_title_": null,
     "addWidgetsdone": false,
@@ -29,7 +35,11 @@
         "needAppMenu": false
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "commonHeader",
+        "flxContent",
+        "commonFooter"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
@@ -41,7 +51,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone13",
+    "device": "Pixel6",
     "displayorientation": 1,
     "enabledforidletimeout": false,
     "friendlyName": "frmDetails",
@@ -96,7 +106,7 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "android",
     "prevDevice": "iPhone13",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,

@@ -4,6 +4,8 @@ define({
   currentClass: "",
   userData: {},
   usderType: "",
+  maleStudentArray: [],
+  femaleStudentArray: [],
 
   onViewCreated: function() {
     this.view.preShow = this.preShow;
@@ -122,6 +124,18 @@ define({
         this.getStudentData(this.currentClass);
       }
     };
+    
+    this.view.segStudents.onRowClick = (eguiWidget, sectionNumber, rowNumber, selectedState) => {
+      if (sectionNumber === 0) {
+        let data = this.femaleStudentArray[rowNumber];
+        data.userType = this.usderType;
+        Navigation.navigateTo("frmDetails", data);
+      } else {
+        let data = this.maleStudentArray[rowNumber];
+        data.userType = this.usderType;
+        Navigation.navigateTo("frmDetails", data);
+      }
+    };
   },
 
   onSorting: function() {
@@ -149,15 +163,15 @@ define({
     let mapedFemaleStudentsData = [];
     let mapedMaleStudentsData = [];
 
-    let maleStudentArray = students.filter(function(student) {
+    this.maleStudentArray = students.filter(function(student) {
       return student.gender === "Male";
     });
 
-    let femaleStudentArray = students.filter(function(student) {
+    this.femaleStudentArray = students.filter(function(student) {
       return student.gender === "Female";
     });
 
-    maleStudentArray.forEach(function(student, index) {
+    this.maleStudentArray.forEach(function(student, index) {
       mapedMaleStudentsData.push({
         "lbl1": {"text": student.name},
         "lbl2": {"text": "ID: " + student.id},
@@ -170,7 +184,7 @@ define({
       });
     });
 
-    femaleStudentArray.forEach(function(student, index) {
+    this.femaleStudentArray.forEach(function(student, index) {
       mapedFemaleStudentsData.push({
         "lbl1": {"text": student.name},
         "lbl2": {"text": "ID: " + student.id},
@@ -210,7 +224,8 @@ define({
     this.view.segStudents.setData(mapedStudentsData);
   },
 
-//     showDetails: function(eguiWidget, sectionNumber, rowNumber, selectedState) {
+    showDetails: function(eguiWidget, sectionNumber, rowNumber, selectedState) {
+            Navigation.navigateTo("frmDetails", this.filteredArr[rowNumber]);
 //       var selectedLoan = this.loansList[rowNumber];
 //       if(selectedLoan.loan_application_status === "Saved" || selectedLoan.loan_application_status === "S") {
 //         navigateToLoansApp(QNBConstants.formName.frmApplyForEloan,selectedLoan);
@@ -230,7 +245,7 @@ define({
 //         var headerToDisplay = kony.i18n.getLocalizedString("loanApplicationStatus");
 //         this.view.cmpDetailsPopUp.setSegData(dataForSegment,headerToDisplay);
 //       }
-//     },
+    },
 
 
 });

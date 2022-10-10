@@ -8,5 +8,7 @@ define({
 
   preShow: function() {
     this.view.commonFooter.currentForm = this.getCurrentForm();
-  }
+    this.view.commonHeader.lblTitle.text = "DIIT Website";
+    this.view.commonHeader.flxGoBack.onTouchStart = () => Navigation.navigateTo("frmDashboard");
+  },
 });
