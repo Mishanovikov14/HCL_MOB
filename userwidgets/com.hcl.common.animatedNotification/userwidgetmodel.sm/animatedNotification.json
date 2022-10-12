@@ -4,10 +4,6 @@
         "type": "string",
         "value": "100%"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_margin_": [
         0,
         0,
@@ -34,18 +30,22 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "animatedNotification",
-        "flxMain"
+        "flxContainer"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "login",
+    "id": "animatedNotification",
     "info": null,
     "iscustomlayout": false,
+    "ismodalcontainer": true,
     "isvisible": true,
-    "kuid": "jbd810b84893475a837325dfe9a98f61",
+    "kuid": "ae3a371a156b425b9f12133980e4f30e",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
@@ -57,5 +57,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 5
 }

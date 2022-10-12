@@ -64,7 +64,6 @@ define({
   },
 
   getStudentDataSuccess: function(response) {
-    dismissLoadingScreen();
     if (response.httpresponse.responsecode === 200) {
       this.students = response.records;
       this.filteredArr = this.students;
@@ -73,21 +72,36 @@ define({
       this.view.flxContent.isVisible = true;
       this.view.flxEmpty.isVisible = false;
     } else {
-      //TODO
-      alert("Something wwent wrong");
+      let data = {
+        text: "Something went wrong!",
+        type: "error",
+        initialTop: "-40dp",
+        finalTop: "70dp"
+      };
+      
+      this.view.animatedNotification.onShow(data);
     }
+    dismissLoadingScreen();
   },
 
   getStudentDataError: function(error) {
-    dismissLoadingScreen();
-    //TODO
+    let data = {
+      text: "Something went wrong!",
+      type: "error",
+      initialTop: "-40dp",
+      finalTop: "70dp"
+    };
+
     this.view.flxContent.isVisible = false;
     this.view.flxEmpty.isVisible = true;
-    alert("Something wwent wrong");
+
+    this.view.animatedNotification.onShow(data);
+    dismissLoadingScreen();
   },
 
   initAction: function() {
     this.view.commonHeader.flxLogout.onClick = () => {
+      //TODO
       Navigation.navigateTo("frmLogin");
     };
 
@@ -103,7 +117,7 @@ define({
 
     this.view.search.flxSearchIcon.onTouchStart = () => {
       let searchText = this.view.search.inputSearch.text.trim();
-      
+
       if (searchText.length > 0) {
         this.filteredArr = this.students.filter((student) => {
           return student.name.toLowerCase().includes(searchText.toLowerCase());
@@ -111,20 +125,20 @@ define({
       } else {
         this.filteredArr = this.students;
       }
-      
+
       this.onSorting();
       this.mapStudents(this.filteredArr);
     };
 
     this.view.search.flxClearBtn.onTouchStart = () => {
       this.view.search.inputSearch.text = "";
-      
+
       if (this.filteredArr !== this.students) {
         this.currentClass = this.view.ListBoxDropdown.selectedKeyValue[1].replace("Class ", "");
         this.getStudentData(this.currentClass);
       }
     };
-    
+
     this.view.segStudents.onRowClick = (eguiWidget, sectionNumber, rowNumber, selectedState) => {
       if (sectionNumber === 0) {
         let data = this.femaleStudentArray[rowNumber];
@@ -222,30 +236,5 @@ define({
     }
 
     this.view.segStudents.setData(mapedStudentsData);
-  },
-
-    showDetails: function(eguiWidget, sectionNumber, rowNumber, selectedState) {
-            Navigation.navigateTo("frmDetails", this.filteredArr[rowNumber]);
-//       var selectedLoan = this.loansList[rowNumber];
-//       if(selectedLoan.loan_application_status === "Saved" || selectedLoan.loan_application_status === "S") {
-//         navigateToLoansApp(QNBConstants.formName.frmApplyForEloan,selectedLoan);
-//       } else {
-//         var dataForSegment = [
-//           {"lbl1": kony.i18n.getLocalizedString("applicationNo"),
-//            "lbl2": selectedLoan.loan_appl_ref_no},
-//           {"lbl1": kony.i18n.getLocalizedString("loanType"),
-//            "lbl2": selectedLoan.loan_application_type},
-//           {"lbl1": kony.i18n.getLocalizedString("submissionDate"),
-//            "lbl2": selectedLoan.loan_start_date},
-//           {"lbl1": kony.i18n.getLocalizedString("status"),
-//            "lbl2": selectedLoan.loan_application_status},
-//           {"lbl1": kony.i18n.getLocalizedString("statusDetails"),
-//            "lbl2": selectedLoan.facility_Purpose},
-//         ];
-//         var headerToDisplay = kony.i18n.getLocalizedString("loanApplicationStatus");
-//         this.view.cmpDetailsPopUp.setSegData(dataForSegment,headerToDisplay);
-//       }
-    },
-
-
+  }
 });

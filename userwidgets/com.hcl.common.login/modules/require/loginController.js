@@ -1,7 +1,7 @@
 define(["Skins"], function (skins) {
   let uiInitialization = function() {
     let rememberMe = voltmx.store.getItem("rememberMe");
-    
+
     this.view.imgCheck.src = rememberMe ? "check.png" : "uncheck.png";
     this.view.imgLogo.src = "logo.png";
     this.view.btnLogin.skin = skins.SKIN_BUTTON_MAIN;
@@ -15,7 +15,7 @@ define(["Skins"], function (skins) {
     this.view.inputPassword.focusSkin = skins.SKIN_INPUT_MAIN;
     this.view.inputUsername.skin = skins.SKIN_INPUT_MAIN;
     this.view.inputPassword.skin = skins.SKIN_INPUT_MAIN;
-    
+
     if (rememberMe) {
       this.view.inputUsername.text = rememberMe.userid;
       this.view.inputPassword.text = rememberMe.password;
@@ -40,14 +40,16 @@ define(["Skins"], function (skins) {
     initGettersSetters: function() {
     },
 
-    showError: function() {
+    showError: function(erroeText) {
       this.view.lblErrorText.isVisible = true;
+      this.view.lblErrorText.text = erroeText;
       this.view.inputPassword.text = "";
       this.view.inputUsername.text = "";
       this.view.inputUsername.skin = skins.SKIN_INPUT_ERROR;
       this.view.inputPassword.skin = skins.SKIN_INPUT_ERROR;
       this.view.inputUsername.focusSkin = skins.SKIN_INPUT_ERROR;
       this.view.inputPassword.focusSkin = skins.SKIN_INPUT_ERROR;
+      this.view.inputUsername.setFocus(true);
 
       if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
         this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_ERROR;
@@ -66,7 +68,7 @@ define(["Skins"], function (skins) {
       this.view.postShow = this.postShow;
       this.view.preShow = this.preShow;
     },
-    
+
     preShow: function() {
       if (voltmx.os.deviceInfo().name === "thinclient") {
         this.view.skin = skins.SKIN_LOGIN_BACKGROUND_WEB;
@@ -98,6 +100,40 @@ define(["Skins"], function (skins) {
           password: this.view.inputPassword.text
         };
 
+        if (this.view.inputPassword.text.length === 0 && this.view.inputUsername.text.length === 0) {
+          this.showError("Username and password is required");
+          return;
+        }
+
+        if (this.view.inputUsername.text.length === 0) {
+          this.view.lblErrorText.isVisible = true;
+          this.view.lblErrorText.text = "Username is required";
+          this.view.inputPassword.text = "";
+          this.view.inputUsername.text = "";
+          this.view.inputUsername.skin = skins.SKIN_INPUT_ERROR;
+          this.view.inputUsername.focusSkin = skins.SKIN_INPUT_ERROR;
+          this.view.inputUsername.setFocus(true);
+
+          if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
+            this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_ERROR;
+          }
+          return;
+        }
+
+        if (this.view.inputPassword.text.length === 0) {
+          this.view.lblErrorText.isVisible = true;
+          this.view.lblErrorText.text = "Password is required";
+          this.view.inputPassword.text = "";
+          this.view.inputPassword.skin = skins.SKIN_INPUT_ERROR;
+          this.view.inputPassword.focusSkin = skins.SKIN_INPUT_ERROR;
+          this.view.inputPassword.setFocus(true);
+
+          if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
+            this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_ERROR;
+          }
+          return;
+        }
+
         showLoadingScreen();
         this.onLogin(credentials);
       };
@@ -112,7 +148,7 @@ define(["Skins"], function (skins) {
           this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_MAIN;
           this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_MAIN;
         }
-        
+
         this.view.lblErrorText.isVisible = false;
       };
 
@@ -138,13 +174,13 @@ define(["Skins"], function (skins) {
 
     onLoginSuccessCallback: function() {
       this.getUserAttributes();
-      
+
       if (this.view.imgCheck.src === "check.png") {
         let credentials = {
           userid: this.view.inputUsername.text,
           password: this.view.inputPassword.text
         };
-        
+
         voltmx.store.setItem("rememberMe", credentials);
       } else {
         voltmx.store.removeItem("rememberMe");
@@ -152,7 +188,19 @@ define(["Skins"], function (skins) {
     },
 
     onLoginErrorCallback: function(error) {
-      this.showError();
+      if (error.mfcode === "Auth-4") {
+        this.showError("Invalid username or password");
+      } else {
+        let data = {
+          text: "Something went wrong!",
+          type: "error",
+          initialTop: "-40dp",
+          finalTop: "70dp"
+        };
+
+        this.view.animatedNotification.onShow(data);
+      }
+
       dismissLoadingScreen();
     },
 
@@ -165,13 +213,20 @@ define(["Skins"], function (skins) {
       voltmx.store.setItem("userInfo", JSON.parse(response._provider_profile));
       voltmx.store.setItem("userType", response.groups[0]);
 
-      Navigation.navigateTo("frmDashboard");
       dismissLoadingScreen();
+      Navigation.navigateTo("frmDashboard");
     },
 
     getUserAttributesErrorCallback: function(error) {
+      let data = {
+        text: "Something went wrong!",
+        type: "error",
+        initialTop: "-40dp",
+        finalTop: "70dp"
+      };
+
+      this.view.animatedNotification.onShow(data);
       dismissLoadingScreen();
-      alert("something went wrong");
     },
   };
 });

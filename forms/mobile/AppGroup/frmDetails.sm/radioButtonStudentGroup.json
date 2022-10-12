@@ -69,6 +69,7 @@
     "pf": "frmDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "selectedkey": null,
     "selectedkeyvalue": null,
     "size": 18,
     "tickedimage": "radio.png",

@@ -31,13 +31,12 @@
         }
     },
     "canUpdateUI": true,
-    "canvasWidth": 1200,
     "children": [
-        "login"
+        "animatedNotification"
     ],
     "containerweight": 100,
     "currentLocale": "default",
-    "device": "Pixel6",
+    "device": "iPhone13",
     "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "userwidgetmodel",
@@ -49,7 +48,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "uf759bca750b4068a3a236e05f269334",
+    "kuid": "u685f0cf3f2c44899781f69dac3e2ab3",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.Form2",
@@ -58,9 +57,9 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "Pixel6",
-    "prevPlatform": "android",
+    "platform": "iphone",
+    "prevDevice": "iPhone13",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

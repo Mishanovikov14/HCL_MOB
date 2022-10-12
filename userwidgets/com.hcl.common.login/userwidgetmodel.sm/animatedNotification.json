@@ -1,12 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -14,7 +12,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -31,31 +29,26 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "animatedNotification",
-        "flxMain"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "login",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {},
+    "id": "animatedNotification",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "jbd810b84893475a837325dfe9a98f61",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "isvisible": false,
+    "kuid": "j33e67f5ad864aa1aa330332f19db13e",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "login",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "sourceUserWidget": "ae3a371a156b425b9f12133980e4f30e",
+    "wType": "UserWidgetInstance",
+    "zindex": 5
 }

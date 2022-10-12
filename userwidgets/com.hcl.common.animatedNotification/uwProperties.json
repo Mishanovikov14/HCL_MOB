@@ -1,0 +1,44 @@
+{
+    "classname": "animatedNotification",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "hd428731f03d4cf4b3268f1635c01c67",
+                    "paramList": [],
+                    "propertyKey": "onShow",
+                    "pw": {
+                        "displayName": "onShow",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ae3a371a156b425b9f12133980e4f30e",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.common",
+    "version": "1.0.0"
+}

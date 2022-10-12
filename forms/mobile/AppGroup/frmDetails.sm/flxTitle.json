@@ -36,6 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "flxImg",
+        "flxCamera",
         "flxFullName"
     ],
     "clipbounds": true,

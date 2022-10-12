@@ -35,20 +35,19 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "animatedNotification",
-        "flxMain"
+        "flxAnimatedContainer"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "login",
+    "id": "flxContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jbd810b84893475a837325dfe9a98f61",
+    "kuid": "ffab9267aa2444ceb42ca80fffeba785",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "animatedNotification",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -57,5 +56,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 5
 }
