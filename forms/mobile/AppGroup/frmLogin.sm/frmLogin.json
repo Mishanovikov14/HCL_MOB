@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "login"
+        "login",
+        "animatedNotification"
     ],
     "containerweight": 100,
     "controllerInfo": {

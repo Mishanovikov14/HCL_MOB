@@ -38,7 +38,8 @@
     "children": [
         "commonHeader",
         "flxContent",
-        "commonFooter"
+        "commonFooter",
+        "animatedNotification"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -47,7 +48,7 @@
             "name": "frmDetailsController"
         }
     },
-    "currentLocale": "default",
+    "currentLocale": "none",
     "desktopweb": {
         "needAppMenu": false
     },

@@ -12,7 +12,6 @@ define({
   },
 
   onNavigate: function() {
-    debugger;
     this.view.flxContent.isVisible = false;
     this.view.flxEmpty.isVisible = false;
     this.userData = voltmx.store.getItem("userInfo");
@@ -85,6 +84,12 @@ define({
   },
 
   getStudentDataError: function(error) {
+    if (error.opstatus === 104) {
+      dismissLoadingScreen();
+      logout(this, "expired");
+      return;
+    }
+    
     let data = {
       text: "Something went wrong!",
       type: "error",
@@ -101,8 +106,7 @@ define({
 
   initAction: function() {
     this.view.commonHeader.flxLogout.onClick = () => {
-      //TODO
-      Navigation.navigateTo("frmLogin");
+      logout(this, "notExpired");
     };
 
     this.view.ListBoxDropdown.onSelection = () => {
