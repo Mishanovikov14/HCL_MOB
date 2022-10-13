@@ -422,10 +422,10 @@
     "permissions": {
         "android": {
             "ACCESS_CHECKIN_PROPERTIES": "false",
-            "ACCESS_COARSE_LOCATION": "false",
+            "ACCESS_COARSE_LOCATION": "true",
             "ACCESS_FINE_LOCATION": "true",
             "ACCESS_LOCATION_EXTRA_COMMANDS": "false",
-            "ACCESS_MOCK_LOCATION": "true",
+            "ACCESS_MOCK_LOCATION": "false",
             "ACCESS_NETWORK_STATE": "true",
             "ACCESS_SURFACE_FLINGER": "false",
             "ACCESS_WIFI_STATE": "false",

@@ -70,7 +70,8 @@
                 "kuid": "f38a73d6c9ba4639b5d9885b43c13e23",
                 "srcKUID": "db3b0260bc83429e94ac66f927f96149",
                 "wType": "Image"
-            }
+            },
+            "src": "back.png"
         },
         "imgLogout": {
             "__events__": {},
@@ -78,7 +79,8 @@
                 "kuid": "dafb9d49cd8b4aa487ea6ebbdc5d43d7",
                 "srcKUID": "a1d6127fd6334551b57646b3ec1c9948",
                 "wType": "Image"
-            }
+            },
+            "src": "logout.png"
         },
         "lblTitle": {
             "__events__": {},

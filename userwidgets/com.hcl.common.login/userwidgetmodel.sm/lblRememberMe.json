@@ -5,6 +5,10 @@
         "type": "string",
         "value": "100%"
     },
+    "_left_": {
+        "type": "string",
+        "value": "25dp"
+    },
     "_margin_": [
         1,
         1,
@@ -17,10 +21,6 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "25dp"
-    },
     "_skin_": "sf0feedf9a664681a3e935619080831c",
     "_text_": "Label",
     "_top_": {

@@ -36,8 +36,8 @@ define(["Skins"], function (skins) {
       };
 
       this.view.flxBtn2.onTouchStart = () => {
-        if (componentConfig.currentForm !== "frmAboutUs") {
-          Navigation.navigateTo("frmAboutUs");
+        if (componentConfig.currentForm !== "frmLocation") {
+          Navigation.navigateTo("frmLocation");
         }
       };
 

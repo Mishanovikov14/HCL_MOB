@@ -12,7 +12,6 @@ define({
     this.isSessionExpired = isSessionExpired;
 
     if (rememberMe) {
-      this.view.login.passwordText = rememberMe.password;
       this.view.login.usernameText = rememberMe.userid;
     }
   },

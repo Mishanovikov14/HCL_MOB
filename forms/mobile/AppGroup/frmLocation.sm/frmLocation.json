@@ -19,7 +19,7 @@
         0,
         1,
         0,
-        0
+        2
     ],
     "_skin_": "sc02fd7129904267a805e059799e10e8",
     "_title_": null,
@@ -38,7 +38,8 @@
     "children": [
         "commonHeader",
         "flxMap",
-        "commonFooter"
+        "commonFooter",
+        "animatedNotification"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -53,7 +54,7 @@
     },
     "device": "iPhone13",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmLocation",
     "id": "frmLocation",
     "info": null,

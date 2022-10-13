@@ -2,6 +2,8 @@ define(["Skins"], function (skins) {
   let uiInitialization = function() {
     let rememberMe = voltmx.store.getItem("rememberMe");
 
+    this.view.inputUsername.text = "";
+    this.view.inputPassword.text = "";
     this.view.imgCheck.src = rememberMe ? "check.png" : "uncheck.png";
     this.view.imgLogo.src = "logo.png";
     this.view.btnLogin.skin = skins.SKIN_BUTTON_MAIN;
@@ -18,7 +20,6 @@ define(["Skins"], function (skins) {
 
     if (rememberMe) {
       this.view.inputUsername.text = rememberMe.userid;
-      this.view.inputPassword.text = rememberMe.password;
     }
 
     if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
@@ -175,16 +176,21 @@ define(["Skins"], function (skins) {
     onLoginSuccessCallback: function() {
       this.getUserAttributes();
 
+      voltmx.application.registerForIdleTimeout(5, this.timeoutCallback);
+      
       if (this.view.imgCheck.src === "check.png") {
         let credentials = {
-          userid: this.view.inputUsername.text,
-          password: this.view.inputPassword.text
+          userid: this.view.inputUsername.text
         };
 
         voltmx.store.setItem("rememberMe", credentials);
       } else {
         voltmx.store.removeItem("rememberMe");
       }
+    },
+    
+    timeoutCallback: function() {
+      logout(this, "expired");
     },
 
     onLoginErrorCallback: function(error) {

@@ -34,7 +34,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "defaultpinimage": "pinb.png",
-    "id": "Map0c1c254dfbf7f4e",
+    "id": "mapWidget",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

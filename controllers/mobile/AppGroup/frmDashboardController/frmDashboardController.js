@@ -157,16 +157,16 @@ define({
   },
 
   onSorting: function() {
-    let slectedFilter = this.view.ListBoxDropdownFilter.selectedKeyValue[0];
+    let selectedFilter = this.view.ListBoxDropdownFilter.selectedKeyValue[0];
     this.filteredArr.sort(function(a, b) {
-      if (typeof a[slectedFilter] === 'number') {
-        return a[slectedFilter] - b[slectedFilter];
+      if (typeof a[selectedFilter] === 'number') {
+        return a[selectedFilter] - b[selectedFilter];
       } else {
-        if (a[slectedFilter] > b[slectedFilter]) {
+        if (a[selectedFilter] > b[selectedFilter]) {
           return 1;
         }
 
-        if (a[slectedFilter] < b[slectedFilter]) {
+        if (a[selectedFilter] < b[selectedFilter]) {
           return -1;
         }
         return 0;
@@ -240,5 +240,7 @@ define({
     }
 
     this.view.segStudents.setData(mapedStudentsData);
+    this.view.flxContent.isVisible = true;
+    this.view.flxEmpty.isVisible = false;
   }
 });

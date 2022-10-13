@@ -18,7 +18,7 @@
     "_padding_": [
         3,
         0,
-        0,
+        3,
         0
     ],
     "_placeholder_": "Please Select",
@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "100%"
     },
     "android": {
         "psp": {
@@ -40,7 +40,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "dropdownimage": "down_arrow.png",
+    "dropdownimage": "downarrow.png",
     "focusskin": "s582a2f0a3a040429dae8cbb758d7ee9",
     "groupcells": false,
     "id": "ListBoxDropdownFilter",
@@ -63,6 +63,7 @@
         ]
     ],
     "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
     "parent": "flxListBoxFilters",
     "pf": "frmDashboard",
     "retaincontentalignment": false,

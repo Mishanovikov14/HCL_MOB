@@ -51,7 +51,7 @@
     },
     "device": "Pixel6",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmDashboard",
     "id": "frmDashboard",
     "info": null,

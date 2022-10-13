@@ -83,7 +83,7 @@
                 "srcKUID": "db3b0260bc83429e94ac66f927f96149",
                 "wType": "Image"
             },
-            "src": "previous.png"
+            "src": "back.png"
         },
         "imgLogout": {
             "__events__": {},

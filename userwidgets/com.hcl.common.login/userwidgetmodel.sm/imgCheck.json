@@ -6,6 +6,10 @@
         "type": "string",
         "value": "20dp"
     },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_margin_": [
         0,
         0,
@@ -18,10 +22,6 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "0px"
-    },
     "_skin_": "s0277a0804294d11a674210fbaefb87c",
     "_src_": "imagedrag.png",
     "_width_": {

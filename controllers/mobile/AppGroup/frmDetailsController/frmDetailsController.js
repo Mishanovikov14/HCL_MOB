@@ -19,7 +19,8 @@ define({
     this.view.radioButtonStudentGroup.onSelection = () => {
       this.updateStudentData(params, this.view.radioButtonStudentGroup.selectedKeyValue[1]);
     };
-    this.view.flxCamera.onClick = this.checkCameraPermissions;
+    this.view.commonHeader.flxLogout.onClick = () => logout(this, "notExpired");
+    this.view.flxCamera.onTouchStart = this.checkCameraPermissions;
     this.view.cameraWidget.onCapture = this.onCapture;
   },
 
@@ -27,18 +28,19 @@ define({
     this.view.commonFooter.currentForm = this.getCurrentForm();
     this.view.commonHeader.lblTitle.text = "Student profile";
     this.view.commonHeader.flxGoBack.onTouchStart = () => Navigation.navigateTo("frmDashboard");
+    this.view.onDeviceBack = () => Navigation.navigateTo("frmDashboard");
   },
 
   updateStudentData: function(params, group) {
-    var objSvc = voltmx.sdk.getDefaultInstance().getObjectService("StudentsDB", {
+    let objSvc = voltmx.sdk.getDefaultInstance().getObjectService("StudentsDB", {
       "access": "online"
     });
 
-    var dataObject = new voltmx.sdk.dto.DataObject("students");
+    let dataObject = new voltmx.sdk.dto.DataObject("students");
     dataObject.addField("group", group);
     dataObject.addField("id", params.id);
 
-    var options = {
+    let options = {
       "dataObject": dataObject
     };
 
@@ -81,23 +83,21 @@ define({
   },
 
   checkCameraPermissions: function() {
-    const result = voltmx.application.checkPermission(voltmx.os.RESOURCE_CAMERA);
+    let result = voltmx.application.checkPermission(voltmx.os.RESOURCE_CAMERA);
+    
     if (result.status === voltmx.application.PERMISSION_GRANTED) {
       this.view.cameraWidget.openCamera();
-    }
-    if (result.canRequestPermission) {
-      voltmx.application.requestPermission(voltmx.os.RESOURCE_CAMERA, this.requestPermission, {});
+    } else {
+      voltmx.application.requestPermission(voltmx.os.RESOURCE_CAMERA, this.requestPermission.bind(this));
     }
   },
 
   requestPermission: function(response) {
     if (response.status === voltmx.application.PERMISSION_GRANTED) {
       this.view.cameraWidget.openCamera();
-    }
-
-    if (response.status === voltmx.application.PERMISSION_DENIED) {
+    } else {
       let data = {
-        text: "Please turn on permission to use the camera!",
+        text: "Please turn on camera permission!",
         type: "error",
         initialTop: "-40dp",
         finalTop: "70dp"
@@ -108,7 +108,7 @@ define({
   },
 
   onCapture: function(camera, metadata) {
-    const imgBase64 = this.view.cameraWidget.base64;
+    let imgBase64 = this.view.cameraWidget.base64;
 
     this.view.cameraWidget.closeCamera();
 
@@ -116,14 +116,8 @@ define({
       return;
     }
 
-    const imgInRawBytes = voltmx.convertToRawBytes(imgBase64);
+    let imgInRawBytes = voltmx.convertToRawBytes(imgBase64);
     let imgObj = voltmx.image.createImage(imgInRawBytes);
-
-    //     imgObj.scale(0.15);
     this.view.imgProfile.src = imgObj;
-    //     this.view.flxImageWrapper.setVisibility(false);
-    //     this.view.imgPhoto.setVisibility(true);
-  },
-
-
+  }
 });

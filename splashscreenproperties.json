@@ -31,8 +31,8 @@
                                 "value": "100%"
                             },
                             "wType": "Image",
-                            "_src_": "splashscreen.png",
-                            "contentmode": 0,
+                            "_src_": "pngwing_com.png",
+                            "contentmode": 1,
                             "UIElementType": "Image"
                         }
                     ]
@@ -44,7 +44,7 @@
             "spawinphone8": {},
             "winphone10": {},
             "winphone8": {},
-            "splashImage": "splashscreen.png",
+            "splashImage": "pngwing_com.png",
             "showLoadingIndicator": true
         },
         "tablet": {

@@ -20,7 +20,6 @@ define(function() {
       this.view.lblNotificationText.text = data.text;
       this.view.flxContainer.height = "100%";
       this.view.flxContainer.onTouchStart = () => this.onHide();
-      this.view.flxAnimatedContainer.onTouchStart = () => this.onHide();
       this.initUI(data.type);
     },
 

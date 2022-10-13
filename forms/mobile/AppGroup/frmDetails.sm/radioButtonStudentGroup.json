@@ -18,7 +18,7 @@
     "_padding_": [
         0,
         0,
-        0,
+        2,
         0
     ],
     "_skin_": "sabb8d53861447e9827fe7fe885f5c59",
@@ -65,6 +65,7 @@
         ]
     ],
     "name": "kony.ui.RadioButtonGroup",
+    "paddinginpixel": false,
     "parent": "flxChangeGroup",
     "pf": "frmDetails",
     "retaincontentalignment": false,
