@@ -24,8 +24,8 @@ define(["Skins"], function (skins) {
 
     if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
       this.view.flxMain.width = "80%";
-      this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_MAIN;
-      this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_MAIN;
+      this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
+      this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
     } else {
       this.view.flxMain.width = "30%";
       this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER_WEB;
@@ -146,8 +146,8 @@ define(["Skins"], function (skins) {
         this.view.inputPassword.focusSkin = skins.SKIN_INPUT_MAIN;
 
         if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
-          this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_MAIN;
-          this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_MAIN;
+          this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
+          this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
         }
 
         this.view.lblErrorText.isVisible = false;
@@ -160,8 +160,8 @@ define(["Skins"], function (skins) {
         this.view.inputPassword.focusSkin = skins.SKIN_INPUT_MAIN;
 
         if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
-          this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_MAIN;
-          this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_MAIN;
+          this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
+          this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
         }
 
         this.view.lblErrorText.isVisible = false;

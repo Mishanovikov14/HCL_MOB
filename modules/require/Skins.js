@@ -6,6 +6,7 @@ define(function () {
     SKIN_LABEL_REGULAR: "sknLblRegular",
     SKIN_INPUT_MAIN: "sknInputNormal",
     SKIN_INPUT_PLACEHOLDER_WEB: "sknInputPlaceholderWeb",
+    SKIN_INPUT_PLACEHOLDER: "sknInputPlaceholder",
     SKIN_INPUT_ERROR:"sknInputError",
     
     //Login component skins
