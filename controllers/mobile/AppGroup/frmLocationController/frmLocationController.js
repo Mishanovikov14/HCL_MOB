@@ -28,7 +28,7 @@ define({
     this.getNearestSchools(lat, lng);
   },
 
-  errorGetCurrentLocation: function(erro) {
+  errorGetCurrentLocation: function(error) {
     let data = {
       text: "Something went wrong!",
       type: "error",

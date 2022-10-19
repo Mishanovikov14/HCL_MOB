@@ -50,6 +50,12 @@
     },
     "id": "inputSearch",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showClearButton": false,
+            "showCloseButton": false
+        }
+    },
     "isvisible": true,
     "keyboardtype": "A",
     "kiosk": {
@@ -65,6 +71,7 @@
     "placeholderi18n": "i18n.billPay.SearchMessage",
     "placeholderskin": "sec5004be40c4df98ba9e8a4bed4cb1c",
     "securetextentry": false,
+    "showclearbutton": false,
     "textinputmode": "A",
     "viewtype": "default",
     "wType": "TextField",

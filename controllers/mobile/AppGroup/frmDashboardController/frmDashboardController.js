@@ -3,7 +3,7 @@ define({
   filteredArr: [],
   currentClass: "",
   userData: {},
-  usderType: "",
+  userType: "",
   maleStudentArray: [],
   femaleStudentArray: [],
 
@@ -15,7 +15,7 @@ define({
     this.view.flxContent.isVisible = false;
     this.view.flxEmpty.isVisible = false;
     this.userData = voltmx.store.getItem("userInfo");
-    this.usderType = voltmx.store.getItem("userType");
+    this.userType = voltmx.store.getItem("userType");
 
     this.view.ListBoxDropdown.masterData = [
       ["key1", "Class 9"],
@@ -113,10 +113,12 @@ define({
       this.currentClass = this.view.ListBoxDropdown.selectedKeyValue[1].replace("Class ", "");
       this.getStudentData(this.currentClass);
       this.view.search.inputSearch.text = "";
+      this.view.flxContent.setFocus(true);
     };
 
     this.view.ListBoxDropdownFilter.onSelection = () => {
       this.onSorting();
+      this.view.flxContent.setFocus(true);
     };
 
     this.view.search.flxSearchIcon.onTouchStart = () => {
@@ -146,11 +148,11 @@ define({
     this.view.segStudents.onRowClick = (eguiWidget, sectionNumber, rowNumber, selectedState) => {
       if (sectionNumber === 0) {
         let data = this.femaleStudentArray[rowNumber];
-        data.userType = this.usderType;
+        data.userType = this.userType;
         Navigation.navigateTo("frmDetails", data);
       } else {
         let data = this.maleStudentArray[rowNumber];
-        data.userType = this.usderType;
+        data.userType = this.userType;
         Navigation.navigateTo("frmDetails", data);
       }
     };

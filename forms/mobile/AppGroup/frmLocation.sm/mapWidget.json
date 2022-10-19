@@ -34,10 +34,15 @@
     "calloutwidth": 80,
     "canUpdateUI": true,
     "containerweight": 100,
-    "defaultpinimage": "pinb.png",
+    "defaultpinimage": "currentlocation.png",
     "id": "mapWidget",
     "info": null,
     "invokedProperty": "maps",
+    "iphone": {
+        "psp": {
+            "showCurrentLocation": "none"
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "af735c316226453b9071ed02985e511c",
@@ -51,6 +56,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "screenlevelwidget": false,
+    "showCurrentLocation": "none",
     "wType": "Map",
     "zindex": 1,
     "zoomlevel": 14

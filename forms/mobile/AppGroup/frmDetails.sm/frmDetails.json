@@ -19,7 +19,7 @@
         0,
         1,
         0,
-        2
+        1
     ],
     "_skin_": "sc02fd7129904267a805e059799e10e8",
     "_title_": null,
@@ -52,7 +52,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "Pixel6",
+    "device": "iPhone13",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "friendlyName": "frmDetails",
@@ -107,9 +107,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "iPhone13",
-    "prevPlatform": "iphone",
+    "platform": "iphone",
+    "prevDevice": "Pixel6",
+    "prevPlatform": "android",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

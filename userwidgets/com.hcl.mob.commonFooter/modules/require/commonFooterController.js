@@ -1,4 +1,4 @@
-define(["Skins"], function (skins) {
+define(function() {
   let componentConfig = {
     currentForm: "frmDashboard",
   };

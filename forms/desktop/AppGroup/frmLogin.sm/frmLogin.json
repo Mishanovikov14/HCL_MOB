@@ -42,7 +42,8 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "login"
+        "login",
+        "animatedNotification"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -40,11 +40,17 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "dropdownimage": "downarrow.png",
+    "dropdownimage": "down_arrow.png",
     "focusskin": "s582a2f0a3a040429dae8cbb758d7ee9",
     "groupcells": false,
     "id": "ListBoxDropdownFilter",
     "info": null,
+    "inputAccessoryViewType": 1,
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 1
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "jafa7854641a44e8a484542b2c65ff19",

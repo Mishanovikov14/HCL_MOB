@@ -45,7 +45,12 @@
     "focusskin": "s075271041e2436b9b53a9e314cdd757",
     "id": "inputUsername",
     "info": null,
-    "iphone": {},
+    "iphone": {
+        "psp": {
+            "showClearButton": false,
+            "showCloseButton": false
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",

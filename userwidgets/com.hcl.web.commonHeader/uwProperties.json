@@ -1,0 +1,64 @@
+{
+    "classname": "commonHeader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "e5ece59615f94f5f899fb9a5a7c0ab4b",
+                    "originalPropertyKey": "currentForm",
+                    "propertyIndex": 1,
+                    "propertyKey": "currentForm",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "currentForm",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fcd797e1a2c144318efd452350ef2d29",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d72f44c4c3534fe5aa5b81a6993b21b9",
+                    "originalPropertyKey": "context",
+                    "propertyIndex": 2,
+                    "propertyKey": "context",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "context",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "fcd797e1a2c144318efd452350ef2d29",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.web",
+    "version": "1.0.0"
+}

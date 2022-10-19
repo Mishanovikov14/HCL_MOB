@@ -20,6 +20,11 @@ define(function() {
       this.view.lblNotificationText.text = data.text;
       this.view.flxContainer.height = "100%";
       this.view.flxContainer.onTouchStart = () => this.onHide();
+      if (voltmx.os.deviceInfo().name === "iPhone" || voltmx.os.deviceInfo().name === "android") {
+        this.view.flxAnimatedContainer.width = "80%";
+      } else {
+        this.view.flxAnimatedContainer.width = "30%";
+      }
       this.initUI(data.type);
     },
 

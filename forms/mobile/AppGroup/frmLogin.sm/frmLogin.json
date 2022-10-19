@@ -28,6 +28,7 @@
     "androidwearos": {
         "needAppMenu": false
     },
+    "bounces": false,
     "canUpdateUI": true,
     "children": [
         "login",
@@ -47,6 +48,7 @@
     "device": "iPhone13",
     "displayorientation": 1,
     "enabledforidletimeout": false,
+    "enablescrolling": false,
     "friendlyName": "frmLogin",
     "id": "frmLogin",
     "info": null,

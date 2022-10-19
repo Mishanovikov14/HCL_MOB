@@ -25,9 +25,6 @@
         },
         "b2": {
             "width": 1024
-        },
-        "b3": {
-            "width": 640
         }
     },
     "canUpdateUI": true,
@@ -37,7 +34,7 @@
     ],
     "containerweight": 100,
     "currentLocale": "default",
-    "device": "Pixel6",
+    "device": "iPhone13",
     "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "userwidgetmodel",
@@ -58,13 +55,16 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "android",
-    "prevDevice": "Pixel6",
-    "prevPlatform": "android",
+    "platform": "iphone",
+    "prevDevice": "desktopweb",
+    "prevPlatform": "desktopweb",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
     "titlebar": true,
     "type": 3,
+    "vizProps": {
+        "globalRespDesignEnabled": true
+    },
     "wType": "Form"
 }
