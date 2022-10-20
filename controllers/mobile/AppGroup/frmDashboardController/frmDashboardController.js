@@ -113,12 +113,12 @@ define({
       this.currentClass = this.view.ListBoxDropdown.selectedKeyValue[1].replace("Class ", "");
       this.getStudentData(this.currentClass);
       this.view.search.inputSearch.text = "";
-      this.view.flxContent.setFocus(true);
+      this.view.ListBoxDropdown.setFocus(false);
     };
 
     this.view.ListBoxDropdownFilter.onSelection = () => {
       this.onSorting();
-      this.view.flxContent.setFocus(true);
+      this.view.ListBoxDropdownFilter.setFocus(false);
     };
 
     this.view.search.flxSearchIcon.onTouchStart = () => {

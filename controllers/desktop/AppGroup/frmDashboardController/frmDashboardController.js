@@ -13,5 +13,6 @@ define({
 
   postShow: function() {
     this.view.commonHeader.currentForm = this.getCurrentForm();
+    this.view.lblTitle.text = "Hello, " + this.userData.firstName + "!";
   }
 });

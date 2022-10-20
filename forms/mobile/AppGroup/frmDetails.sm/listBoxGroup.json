@@ -1,5 +1,5 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizRadio",
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
     "DNDConfig": null,
     "_height_": {
         "type": "string",
@@ -16,72 +16,69 @@
         0
     ],
     "_padding_": [
+        1,
         0,
-        0,
-        2,
+        1,
         0
     ],
-    "_skin_": "sabb8d53861447e9827fe7fe885f5c59",
-    "_top_": {
-        "type": "string",
-        "value": "7dp"
-    },
+    "_placeholder_": "Please Select",
+    "_skin_": "scf77f7a2da841c38d92d5d939e127aa",
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "95dp"
     },
     "android": {
         "psp": {
-            "viewType": 0
+            "applySkinsToPopup": false
         }
     },
     "canUpdateUI": true,
-    "containerweight": 100,
-    "groupcells": false,
-    "id": "radioButtonStudentGroup",
-    "info": null,
-    "ipad": {
-        "psp": {
-            "viewType": 0
-        }
+    "centery": {
+        "type": "string",
+        "value": "50%"
     },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "down_arrow.png",
+    "focusskin": "sf5e95cef64341dc8f19708ad748c964",
+    "groupcells": false,
+    "id": "listBoxGroup",
+    "info": null,
+    "inputAccessoryViewType": 1,
     "iphone": {
         "psp": {
-            "viewType": 3
+            "inputAccessoryViewType": 2
         }
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "itemorientation": "horizontal",
-    "kuid": "f052a8d6695449408b799faf2a8860ab",
+    "kuid": "i1b6b4cbfe6e40de8d37088270ee6a2a",
     "masterdata": [
         [
             "key1",
-            "History"
+            "Math"
         ],
         [
             "key2",
-            "Math"
+            "History"
         ]
     ],
-    "name": "kony.ui.RadioButtonGroup",
+    "name": "kony.ui.ListBox",
     "paddinginpixel": false,
     "parent": "flxChangeGroup",
     "pf": "frmDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "selectedkey": null,
+    "selectedkeys": null,
     "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
     "size": 18,
-    "tickedimage": "radio.png",
-    "untickedimage": "radio_button.png",
     "viewconfig": {
         "toggleViewConfig": {
             "viewStyle": 0
         }
     },
     "viewtype": 0,
-    "wType": "RadioButtonGroup",
-    "widgetalignment": 5,
+    "wType": "ListBox",
     "zindex": 1
 }

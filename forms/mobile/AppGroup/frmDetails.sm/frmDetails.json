@@ -52,7 +52,7 @@
     "desktopweb": {
         "needAppMenu": false
     },
-    "device": "iPhone13",
+    "device": "Pixel6",
     "displayorientation": 1,
     "enabledforidletimeout": true,
     "friendlyName": "frmDetails",
@@ -107,9 +107,9 @@
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "Pixel6",
-    "prevPlatform": "android",
+    "platform": "android",
+    "prevDevice": "iPhone13",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

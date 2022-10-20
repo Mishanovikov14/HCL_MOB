@@ -95,7 +95,7 @@
             "left": {
                 "Default": {
                     "type": "string",
-                    "value": "8dp"
+                    "value": "42dp"
                 }
             }
         },

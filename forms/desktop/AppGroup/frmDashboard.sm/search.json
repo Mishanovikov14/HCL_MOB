@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "50px"
     },
     "_left_": {
         "type": "string",
@@ -42,7 +42,7 @@
         "flxClearBtn": {
             "__events__": {},
             "__info__": {
-                "kuid": "bbee361ef602471ba61b6854174371e6",
+                "kuid": "be68905b58b844a4bfbbcdbe85c1e60d",
                 "srcKUID": "j04435c3963c40c49cde75c61fd2184e",
                 "wType": "FlexContainer"
             }
@@ -50,7 +50,7 @@
         "flxContainer": {
             "__events__": {},
             "__info__": {
-                "kuid": "b2ebffb0564f4a398aa55b3b5fd8d1db",
+                "kuid": "ad0470f6b113411188c5eff01761aae5",
                 "srcKUID": "i2aca91ff211492db8b7be1e17925935",
                 "wType": "FlexContainer"
             }
@@ -58,7 +58,7 @@
         "flxSearchIcon": {
             "__events__": {},
             "__info__": {
-                "kuid": "gcf9685fddf24d64b7841632533f7079",
+                "kuid": "jbad25b220d74a19a73e7b43e4d8c9fe",
                 "srcKUID": "efa251f451f5488b8a1cddd7732b0c58",
                 "wType": "FlexContainer"
             }
@@ -66,7 +66,7 @@
         "imgCross": {
             "__events__": {},
             "__info__": {
-                "kuid": "j7261fcfc09a489f85faf60c399f30e0",
+                "kuid": "b42a0f6e83004609ace4b979b6c6876e",
                 "srcKUID": "d512d80c363f4c679a31c79c1987fcbc",
                 "wType": "Image"
             },
@@ -76,7 +76,7 @@
         "imgSearch": {
             "__events__": {},
             "__info__": {
-                "kuid": "ff7a95a8601f4997be677aca4ae862fb",
+                "kuid": "c2f40c4c0d1b44ba9f81f5d3951a256b",
                 "srcKUID": "fc9fc3797e064a74b63b8091086fc1d9",
                 "wType": "Image"
             }
@@ -84,7 +84,7 @@
         "inputSearch": {
             "__events__": {},
             "__info__": {
-                "kuid": "gb82697e294641f1a2ff7e575ad415a1",
+                "kuid": "efbf30956cf349318cc0c15818f0d1ba",
                 "srcKUID": "df990ed2dfdf4af795693db53770b5d8",
                 "wType": "TextField"
             }
@@ -96,7 +96,17 @@
                 "kuid": "c7944ff6c62b445482904f8b6f1593ea",
                 "srcKUID": "baea893bdc354eccb9b9b3282f9d90f7",
                 "wType": "FlexContainer"
-            }
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "50px"
+                }
+            },
+            "responsiveData": {}
         }
     },
     "enablescrolling": true,

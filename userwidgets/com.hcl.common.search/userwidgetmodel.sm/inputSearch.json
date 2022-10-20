@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "8dp"
+        "value": "42dp"
     },
     "_margin_": [
         0,
@@ -22,15 +22,15 @@
         0
     ],
     "_placeholder_": "Search for students by name",
+    "_right_": {
+        "type": "string",
+        "value": "42dp"
+    },
     "_skin_": "scb0028dbf6844c8956a98520b251264",
     "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0"
-    },
-    "_width_": {
-        "type": "string",
-        "value": "75%"
     },
     "accessibilityconfig": {
         "a11yLabel": "Search using keywords such as Name, Bank, Account Type …"

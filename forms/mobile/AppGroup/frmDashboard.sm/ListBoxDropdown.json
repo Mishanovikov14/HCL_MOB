@@ -45,10 +45,10 @@
     "groupcells": false,
     "id": "ListBoxDropdown",
     "info": null,
-    "inputAccessoryViewType": 1,
+    "inputAccessoryViewType": 2,
     "iphone": {
         "psp": {
-            "inputAccessoryViewType": 1
+            "inputAccessoryViewType": 2
         }
     },
     "iscustomlayout": false,

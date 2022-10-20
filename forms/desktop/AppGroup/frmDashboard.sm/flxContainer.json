@@ -37,7 +37,9 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "flxSearch"
+        "lblTitle",
+        "flxSeparator",
+        "flxFiltering"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -50,7 +52,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "de5ebe0ce97d415b8af659af1789da2f",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexScrollContainer",
     "pagingenabled": false,
     "parent": "frmDashboard",

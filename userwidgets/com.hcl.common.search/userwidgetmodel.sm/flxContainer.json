@@ -47,7 +47,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "i2aca91ff211492db8b7be1e17925935",
-    "layouttype": 3,
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "search",
     "pf": "userwidgetmodel",

@@ -14,10 +14,11 @@ define({
     this.view.flxChangeGroup.isVisible = params.userType === "Teacher" ? true : false;  
     this.view.flxCamera.isVisible = params.userType === "Teacher" ? true : false;      
     this.view.imgProfile.src = params.gender === "Male" ? "man.png" : "woman.png";
-    this.view.radioButtonStudentGroup.selectedKey = params.group === "Math" ? "key2" : "key1";
+    this.view.listBoxGroup.selectedKey = params.group === "Math" ? "key1" : "key2";
 
-    this.view.radioButtonStudentGroup.onSelection = () => {
-      this.updateStudentData(params, this.view.radioButtonStudentGroup.selectedKeyValue[1]);
+    this.view.listBoxGroup.onSelection = () => {
+      this.updateStudentData(params, this.view.listBoxGroup.selectedKeyValue[1]);
+      this.view.listBoxGroup.setFocus(false);
     };
     this.view.commonHeader.flxLogout.onClick = () => logout(this, "notExpired");
     this.view.flxCamera.onTouchStart = this.checkCameraPermissions;
@@ -51,7 +52,7 @@ define({
   updateStudentDataSuccess: function(response) {
     dismissLoadingScreen();
     if (response.httpresponse.responsecode === 200) {
-      this.view.lblGroup.text = this.view.radioButtonStudentGroup.selectedKeyValue[1];
+      this.view.lblGroup.text = this.view.listBoxGroup.selectedKeyValue[1];
     } else {
       let data = {
         text: "Something went wrong!",
