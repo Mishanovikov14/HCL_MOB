@@ -1,5 +1,5 @@
 {
-    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_margin_": [
         0,
@@ -33,17 +33,15 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "search"
+        "flxPeopleInfo"
     ],
+    "containerId": true,
     "containerweight": 100,
     "currentLocale": "default",
-    "device": "iPhone13",
+    "device": "desktopweb",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "globalUserWidgetRefs": [
-        "uf151b97c4cb4731abf935d3fca66734"
-    ],
-    "id": "userwidgetmodel",
+    "id": "peopleRowTemplate",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -52,18 +50,16 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u51a79140ad342229e64ca44ae119f29",
-    "layouttype": 2,
-    "masterType": 0,
+    "kuid": "h7d390b496d84792b4c0f1e3ea9cdbae",
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "Pixel6",
-    "prevPlatform": "android",
+    "platform": "desktopweb",
+    "prevDevice": "desktopweb",
+    "prevPlatform": "desktopweb",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

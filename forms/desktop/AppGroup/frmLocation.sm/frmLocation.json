@@ -65,7 +65,7 @@
     },
     "device": "desktopweb",
     "displayorientation": 1,
-    "enabledforidletimeout": false,
+    "enabledforidletimeout": true,
     "friendlyName": "frmLocation",
     "id": "frmLocation",
     "info": null,

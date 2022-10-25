@@ -36,9 +36,9 @@
     "canUpdateUI": true,
     "children": [
         "flxSearch",
-        "listBoxFilter"
+        "dropdown"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
     "id": "flxFiltering",
@@ -57,5 +57,5 @@
     "snaptogrid": true,
     "wType": "FlexContainer",
     "widgetalignment": 1,
-    "zindex": 1
+    "zindex": 5
 }

@@ -1,12 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "0px"
+        "value": "100%"
     },
     "_margin_": [
         0,
@@ -14,7 +12,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -25,39 +23,32 @@
     "_skin_": "s1f123f081e0478d8daf17e562316126",
     "_top_": {
         "type": "string",
-        "value": "75px"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 1,
     "canUpdateUI": true,
-    "children": [
-        "lblTitle",
-        "flxSeparator",
-        "flxFiltering",
-        "flxMain"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxContainer",
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 0,
+    "data": {},
+    "id": "animatedNotification",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "de5ebe0ce97d415b8af659af1789da2f",
-    "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
+    "isvisible": false,
+    "kuid": "d706edab8bb640eb812a494a09fbee1e",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "frmDashboard",
     "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "sourceUserWidget": "ae3a371a156b425b9f12133980e4f30e",
+    "wType": "UserWidgetInstance",
+    "zindex": 5
 }

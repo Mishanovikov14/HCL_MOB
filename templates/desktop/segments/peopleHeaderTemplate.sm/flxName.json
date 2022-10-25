@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5%"
+        "value": "8%"
     },
     "_margin_": [
         0,
@@ -25,37 +25,37 @@
     "_skin_": "s1f123f081e0478d8daf17e562316126",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0px"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "21%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxLogo",
-        "flxTitle1",
-        "flxTitle2"
+        "lblName"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxNavigation",
+    "id": "flxName",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ff5c0fc3069f45b7abd5614c92abf606",
-    "layouttype": 3,
+    "kuid": "b7a136576db0492eab4ae469b4dfcb6c",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxWrapper",
-    "pf": "userwidgetmodel",
+    "parent": "flxPeopleTitle",
+    "pf": "peopleHeaderTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 1
 }

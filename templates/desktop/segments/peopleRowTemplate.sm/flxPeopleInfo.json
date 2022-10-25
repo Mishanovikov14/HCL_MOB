@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "80px"
     },
     "_left_": {
         "type": "string",
-        "value": "5%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -22,35 +22,48 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1f123f081e0478d8daf17e562316126",
+    "_skin_": "s89b03db723d477a8a4c60264f6a6de7",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxLogo",
-        "flxTitle1",
-        "flxTitle2"
+        "flxIcon",
+        "flxName",
+        "flxRole",
+        "flxMobileNumber",
+        "flxAge",
+        "flxId",
+        "flxArrow"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flxPeopleInfoController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxNavigation",
+    "friendlyName": "flxPeopleInfo",
+    "id": "flxPeopleInfo",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ff5c0fc3069f45b7abd5614c92abf606",
+    "kuid": "jd6021a481df4d7889660b4c3c72d2ea",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxWrapper",
-    "pf": "userwidgetmodel",
+    "parent": "peopleRowTemplate",
+    "pf": "peopleRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

@@ -1,12 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
-    },
-    "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "50px"
     },
     "_margin_": [
         0,
@@ -14,7 +12,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -22,39 +20,35 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s1f123f081e0478d8daf17e562316126",
+    "_right_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_skin_": "s9fa1f184e1443188ed9c25c1c626344",
     "_top_": {
         "type": "string",
         "value": "0px"
     },
     "_width_": {
         "type": "string",
-        "value": "68%"
+        "value": "30%"
     },
-    "allboxes": [],
-    "autogrowmode": 1,
     "canUpdateUI": true,
-    "children": [
-        "search"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxSearch",
+    "containerweight": 0,
+    "data": {},
+    "id": "dropdown",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e4898309cb1944b3855c4d8f53dbf8e4",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
+    "kuid": "ca2910bc3baf47a5ba3b9c5d47aa8567",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "flxFiltering",
     "pf": "frmDashboard",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "sourceUserWidget": "h16b67a9f5c143628612c0e3b07eed6c",
+    "wType": "UserWidgetInstance",
+    "zindex": 2
 }

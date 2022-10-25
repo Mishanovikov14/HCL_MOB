@@ -37,6 +37,9 @@
     "device": "iPhone13",
     "displayorientation": 3,
     "enabledforidletimeout": false,
+    "globalUserWidgetRefs": [
+        "udd62f05506043d49d1ad0fd9a34086b"
+    ],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,
@@ -56,8 +59,6 @@
     },
     "paddinginpixel": false,
     "platform": "iphone",
-    "prevDevice": "desktopweb",
-    "prevPlatform": "desktopweb",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

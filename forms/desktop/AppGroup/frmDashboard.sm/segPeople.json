@@ -1,0 +1,776 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        [
+            {
+                "imgIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "man.png"
+                },
+                "lblAge": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "45"
+                },
+                "lblID": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "123"
+                },
+                "lblMobileNumber": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "+3800675680840"
+                },
+                "lblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Mykhailo Novikov"
+                },
+                "lblRole": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Teacher"
+                }
+            },
+            [
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "man.png"
+                },
+                "lblAge": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "45"
+                },
+                "lblID": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "123"
+                },
+                "lblMobileNumber": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "+3800675680840"
+                },
+                "lblName": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Mykhailo Novikov"
+                },
+                "lblRole": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Teacher"
+                }
+            },
+            [
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                },
+                {
+                    "imgArrow": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "man.png"
+                    },
+                    "imgIcon": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "imagedrag.png"
+                    },
+                    "lblAge": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblID": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "+3800675680840"
+                    },
+                    "lblMobileNumber": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Teacher"
+                    },
+                    "lblName": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Label"
+                    },
+                    "lblRole": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Mykhailo Novikov"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "19",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segPeople",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d05cc211069f452d9da29ae23d24f034",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMain",
+    "pf": "frmDashboard",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "h7d390b496d84792b4c0f1e3ea9cdbae",
+    "rowcounter": 9,
+    "rowfocusskin": "s992a5b025314e8ebac2778e2b0a109f",
+    "rowskin": "s308d412e2044a069fba5b0c81bf0a0c",
+    "rowtemplate": "Flex0af6b2ee76f584d",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "d084aeebbc84456bafcf30148dbc92e5",
+    "sectionheaderskin": "s168997d9e0241719c67d45e74d8e110",
+    "sectionheadertemplate": "Flex0a1e07c531a154d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAge": "flxAge",
+        "flxArrow": "flxArrow",
+        "flxIcon": "flxIcon",
+        "flxId": "flxId",
+        "flxMobileNumber": "flxMobileNumber",
+        "flxName": "flxName",
+        "flxPeopleInfo": "flxPeopleInfo",
+        "flxPeopleTitle": "flxPeopleTitle",
+        "flxRole": "flxRole",
+        "imgArrow": "imgArrow",
+        "imgIcon": "imgIcon",
+        "lblAge": "lblAge",
+        "lblID": "lblID",
+        "lblMobileNumber": "lblMobileNumber",
+        "lblName": "lblName",
+        "lblRole": "lblRole"
+    },
+    "zindex": 1
+}

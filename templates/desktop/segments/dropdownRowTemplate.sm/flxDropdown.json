@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50px"
     },
     "_left_": {
         "type": "string",
-        "value": "5%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -28,29 +28,35 @@
         "value": "0dp"
     },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxLogo",
-        "flxTitle1",
-        "flxTitle2"
+        "lblOption"
     ],
-    "clipbounds": false,
+    "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flxDropdownController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxNavigation",
+    "id": "flxDropdown",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ff5c0fc3069f45b7abd5614c92abf606",
-    "layouttype": 3,
+    "kuid": "db700ad6817b42a4911cba3748f82c7e",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxWrapper",
-    "pf": "userwidgetmodel",
+    "parent": "dropdownRowTemplate",
+    "pf": "dropdownRowTemplate",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
