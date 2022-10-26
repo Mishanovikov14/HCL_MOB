@@ -7,7 +7,7 @@ define({
 
   onNavigate: function() {
     this.view.mapWidget.mapKey = "AIzaSyBM8KyM0og7riVUwQ71I4xzl6NjzmSwtlY";
-    this.view.lblLocationName.isVisible = false;
+    this.view.lblLocationName.text = "Current location";
     this.view.lblRating.isVisible = false;
 
     var highAccuracyOptions = {

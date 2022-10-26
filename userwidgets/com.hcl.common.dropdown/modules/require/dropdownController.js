@@ -3,6 +3,8 @@ define(["Skins"], function (skins) {
     currentForm: "frmDashboard",
     context: {}
   };
+  
+  let dropdownData = [];
 
   return {
     constructor: function(baseConfig, layoutConfig, platformSpecificConfig) {
@@ -26,7 +28,12 @@ define(["Skins"], function (skins) {
         },
 
     onViewCreated: function() {
+      this.view.preShow = this.preShow;
       this.view.postShow = this.postShow;
+    },
+    
+    preShow: function() {
+      
     },
 
     postShow: function() {
@@ -34,9 +41,32 @@ define(["Skins"], function (skins) {
     },
     
     initAction: function() {
-      this.view.onTouchStart = () => {
+      this.view.flxMain.onTouchStart = () => {
         this.view.flxDropdownData.isVisible = this.view.flxDropdownData.isVisible ? false : true;
       };
-    }
+      
+      this.view.segDropdown.onRowClick = (eguiWidget, sectionNumber, rowNumber, selectedState) => {
+        this.view.lblTitle.text = dropdownData[rowNumber];
+        this.view.flxDropdownData.isVisible = false;
+      };
+    },
+    
+    initDropdown: function(data) {
+      dropdownData = data;
+      this.view.lblTitle.text = dropdownData[0];
+      this.mapSegData(dropdownData);
+    },
+    
+    mapSegData: function() {
+    let mapedData = [];
+
+    dropdownData.forEach(function(option, index) {
+      mapedData.push({
+        "lblOption": {"text": option},
+      });
+    });
+
+    this.view.segDropdown.setData(mapedData);
+  }
   };
 });

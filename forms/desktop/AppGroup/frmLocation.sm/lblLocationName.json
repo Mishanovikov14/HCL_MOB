@@ -57,8 +57,30 @@
     "isvisible": true,
     "kuid": "c7ad3f718dc94cd294122c8b6746c41c",
     "name": "kony.ui.Label",
-    "parent": "flxContent",
+    "parent": "flxDetails",
     "pf": "frmLocation",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "0%"
+            },
+            "top": {
+                "type": "string",
+                "value": "0px"
+            }
+        },
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": "0%"
+            },
+            "top": {
+                "type": "string",
+                "value": "0px"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

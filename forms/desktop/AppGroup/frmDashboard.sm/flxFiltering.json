@@ -50,6 +50,12 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxContainer",
     "pf": "frmDashboard",
+    "responsiveData": {
+        "b2": {
+            "isVisible": true,
+            "layoutType": 4
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

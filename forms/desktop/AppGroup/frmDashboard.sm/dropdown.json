@@ -45,6 +45,14 @@
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxFiltering",
     "pf": "frmDashboard",
+    "responsiveData": {
+        "b2": {
+            "top": {
+                "type": "string",
+                "value": "15px"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

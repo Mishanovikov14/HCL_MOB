@@ -13,6 +13,7 @@ define({
     this.userType = voltmx.store.getItem("userType");
     this.getPeople();
     this.view.flxMain.isVisible = false;
+    this.view.dropdown.initDropdown(["Filter by full name" , "Filter by age", "Filter by position"]);
   },
 
   postShow: function() {

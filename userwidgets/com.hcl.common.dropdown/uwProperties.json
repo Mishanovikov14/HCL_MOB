@@ -2,7 +2,20 @@
     "classname": "dropdown",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e34a9abb95144951a1cc71d7e02840f7",
+                    "paramList": [],
+                    "propertyKey": "initDropdown",
+                    "pw": {
+                        "displayName": "initDropdown",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h16b67a9f5c143628612c0e3b07eed6c",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,7 +23,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []

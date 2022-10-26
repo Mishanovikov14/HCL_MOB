@@ -38,8 +38,7 @@
         "lblTitle",
         "flxSeparator",
         "flxMap",
-        "lblLocationName",
-        "lblRating"
+        "flxDetails"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -53,6 +52,11 @@
     "name": "kony.ui.FlexContainer",
     "parent": "frmLocation",
     "pf": "frmLocation",
+    "responsiveData": {
+        "b2": {
+            "layoutType": 4
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

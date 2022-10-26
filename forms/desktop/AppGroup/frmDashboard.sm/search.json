@@ -79,7 +79,8 @@
                 "kuid": "c2f40c4c0d1b44ba9f81f5d3951a256b",
                 "srcKUID": "fc9fc3797e064a74b63b8091086fc1d9",
                 "wType": "Image"
-            }
+            },
+            "src": "loupe.png"
         },
         "inputSearch": {
             "__events__": {},

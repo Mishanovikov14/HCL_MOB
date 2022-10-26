@@ -21,6 +21,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
     "_skin_": "sf0feedf9a664681a3e935619080831c",
     "_text_": "Rating",
     "_top_": {
@@ -57,8 +61,38 @@
     "isvisible": true,
     "kuid": "c304692a71be47be9049a9343b948637",
     "name": "kony.ui.Label",
-    "parent": "flxContent",
+    "parent": "flxDetails",
     "pf": "frmLocation",
+    "responsiveData": {
+        "b1": {
+            "left": {
+                "type": "string",
+                "value": "0%"
+            }
+        },
+        "b2": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "left": {
+                "type": "string",
+                "value": "0px"
+            },
+            "right": {
+                "type": "string",
+                "value": ""
+            },
+            "top": {
+                "type": "string",
+                "value": "15px"
+            },
+            "width": {
+                "type": "ref",
+                "value": "preferred"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

@@ -51,6 +51,20 @@
     "name": "kony.ui.FlexContainer",
     "parent": "login",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "width": {
+                "type": "string",
+                "value": "30%"
+            }
+        },
+        "b2": {
+            "width": {
+                "type": "string",
+                "value": "40%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

@@ -27,7 +27,7 @@ define(["Skins"], function (skins) {
       this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
       this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
     } else {
-      this.view.flxMain.width = "30%";
+//       this.view.flxMain.width = "30%";
       this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER_WEB;
       this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER_WEB;
     }

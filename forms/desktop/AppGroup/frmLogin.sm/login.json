@@ -31,7 +31,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "130%"
     },
     "canUpdateUI": true,
     "containerweight": 0,
@@ -45,6 +45,20 @@
     "name": "kony.ui.UserWidgetInstance",
     "parent": "frmLogin",
     "pf": "frmLogin",
+    "responsiveData": {
+        "b1": {
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        },
+        "b2": {
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

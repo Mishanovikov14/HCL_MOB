@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "220dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "91dp"
     },
     "_margin_": [
         0,
@@ -29,42 +29,63 @@
     },
     "_width_": {
         "type": "string",
-        "value": "30%"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "animatedNotification",
-        "flxMain"
+        "lblLocationName",
+        "lblRating"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "login",
+    "id": "flxDetails",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jbd810b84893475a837325dfe9a98f61",
+    "kuid": "jc0382c3e3984d099cbe71c29b0dfec3",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
-    "pf": "userwidgetmodel",
+    "parent": "flxContent",
+    "pf": "frmLocation",
     "responsiveData": {
         "b1": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "layoutType": 4,
+            "left": {
+                "type": "string",
+                "value": "5%"
+            },
+            "top": {
+                "type": "string",
+                "value": "15px"
+            },
             "width": {
                 "type": "string",
-                "value": "100%"
+                "value": "90%"
             }
         },
         "b2": {
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "layoutType": 4,
+            "left": {
+                "type": "string",
+                "value": "5%"
+            },
+            "top": {
+                "type": "string",
+                "value": "15px"
+            },
             "width": {
                 "type": "string",
-                "value": "100%"
+                "value": "90%"
             }
         }
     },

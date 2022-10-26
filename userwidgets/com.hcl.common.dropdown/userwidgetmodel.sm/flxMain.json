@@ -6,7 +6,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0px"
     },
     "_margin_": [
         0,
@@ -25,49 +25,30 @@
     "_skin_": "s1f123f081e0478d8daf17e562316126",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0px"
     },
     "_width_": {
         "type": "string",
-        "value": "30%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "animatedNotification",
-        "flxMain"
+        "lblTitle"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "login",
+    "id": "flxMain",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jbd810b84893475a837325dfe9a98f61",
+    "kuid": "d334d24f95f049ab9dc4c69c759869ab",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "dropdown",
     "pf": "userwidgetmodel",
-    "responsiveData": {
-        "b1": {
-            "width": {
-                "type": "string",
-                "value": "100%"
-            }
-        },
-        "b2": {
-            "width": {
-                "type": "string",
-                "value": "100%"
-            }
-        }
-    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

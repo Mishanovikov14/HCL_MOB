@@ -33,13 +33,15 @@
         "login"
     ],
     "containerweight": 100,
+    "currentBreakpoint": {
+        "kuid": "b2",
+        "width": 1024
+    },
     "currentLocale": "default",
-    "device": "iPhone13",
+    "device": "desktopweb",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "globalUserWidgetRefs": [
-        "udd62f05506043d49d1ad0fd9a34086b"
-    ],
+    "globalUserWidgetRefs": [],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,
@@ -58,14 +60,16 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "desktopweb",
+    "prevDevice": "iPhone13",
+    "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
     "titlebar": true,
     "type": 3,
     "vizProps": {
-        "globalRespDesignEnabled": true
+        "globalRespDesignEnabled": false
     },
     "wType": "Form"
 }
