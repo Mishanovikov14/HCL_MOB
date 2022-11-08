@@ -38,7 +38,8 @@
         "lblTitle",
         "flxSeparator",
         "flxFiltering",
-        "flxMain"
+        "flxMain",
+        "flxBtnMore"
     ],
     "clipbounds": true,
     "containerweight": 100,
