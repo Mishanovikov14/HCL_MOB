@@ -88,7 +88,8 @@
                 "kuid": "efbf30956cf349318cc0c15818f0d1ba",
                 "srcKUID": "df990ed2dfdf4af795693db53770b5d8",
                 "wType": "TextField"
-            }
+            },
+            "placeholder": "Search by name"
         },
         "search": {
             "__events__": {},

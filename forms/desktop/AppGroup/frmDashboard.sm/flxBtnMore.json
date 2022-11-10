@@ -82,6 +82,33 @@
                 "type": "string",
                 "value": "90%"
             }
+        },
+        "b2": {
+            "bottom": {
+                "type": "string",
+                "value": "50px"
+            },
+            "centerX": {
+                "type": "string",
+                "value": "50%"
+            },
+            "height": {
+                "type": "ref",
+                "value": "preferred"
+            },
+            "isVisible": true,
+            "left": {
+                "type": "string",
+                "value": "0px"
+            },
+            "top": {
+                "type": "string",
+                "value": "15px"
+            },
+            "width": {
+                "type": "string",
+                "value": "90%"
+            }
         }
     },
     "retaincontentalignment": false,

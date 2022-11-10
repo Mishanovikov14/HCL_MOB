@@ -2,9 +2,12 @@ define({
   userData: {},
   userType: "",
   peopleData: [],
+  searchData: [],
+  rowNumber: 0,
   recordsOnPage: 3,
   page: 1,
   isLastPage: false,
+  isBtnVisible: true,
 
   onViewCreated: function() {
     this.view.postShow = this.postShow;
@@ -12,6 +15,7 @@ define({
 
   onNavigate: function() {
     this.peopleData = [];
+    this.rowNumber = 0;
     this.page = 1;
     this.view.btnMore.isVisible = true;
     this.userData = voltmx.store.getItem("userInfo");
@@ -19,6 +23,46 @@ define({
     this.getPeople();
     this.view.flxMain.isVisible = false;
     this.view.dropdown.initDropdown(["Filter by name" , "Filter by age", "Filter by position"]);
+    this.view.onBreakpointChange = () => {
+      this.view.btnMore.isVisible =  this.isBtnVisible;
+    };
+    
+    this.view.dropdown.onRowClick = (eguiWidget, sectionNumber, rowNumber) => {
+      this.rowNumber = rowNumber;
+      this.peopleData = this.view.dropdown.onSelection(rowNumber, this.peopleData);
+      this.mapSegData(this.peopleData);
+    };
+    this.view.search.flxSearchIcon.onTouchStart = () => {
+      let searchText = this.view.search.inputSearch.text.trim();
+
+      if (searchText.length > 0) {
+        this.searchData = this.peopleData.filter((people) => {
+          return people.name.toLowerCase().includes(searchText.toLowerCase());
+        });
+
+        this.view.btnMore.isVisible =  false;
+      } else {
+        this.searchData = this.peopleData;
+        this.view.btnMore.isVisible =  this.isBtnVisible;
+      }
+
+      this.searchData = this.view.dropdown.onSelection(this.rowNumber, this.searchData);
+      this.mapSegData(this.searchData);
+    };
+
+    this.view.search.flxClearBtn.onTouchStart = () => {
+      let searchText = this.view.search.inputSearch.text.trim();
+      this.view.search.inputSearch.text = "";
+
+      if (searchText.length > 0 && this.searchData !== this.peopleData) {
+        this.peopleData = [];
+        this.page = 1;
+        this.getPeople();
+      }
+    };
+    
+    let screen = document.getElementsByTagName("body");
+    document.body.addEventListener('click', this.hideDropdown, false);
   },
 
   postShow: function() {
@@ -27,6 +71,12 @@ define({
     this.view.btnMore.onClick = () => {
       this.getPeople();
     };
+  },
+  
+  hideDropdown: function(e) {
+    if (!e.target.attributes.kwp || !e.target.attributes.kwp.value.includes("frmDashboard_dropdown")) {
+       this.view.dropdown.closeDropdown();
+    }
   },
   
   getPeople: function() {
@@ -56,12 +106,12 @@ define({
         this.peopleData.push(student);
       });
       
-      //TODO
-      //       this.view.dropdown.arr = this.peopleData;
+      this.isBtnVisible = response.students.length < 3 ? false : true;
       
-      this.view.btnMore.isVisible = response.students.length < 3 ? false : true;
+      this.view.btnMore.isVisible =  this.isBtnVisible;
       
-      this.mapSegData();
+      this.peopleData = this.view.dropdown.onSelection(this.rowNumber, this.peopleData);
+      this.mapSegData(this.peopleData);
     } else {
       let data = {
         text: "Something went wrong!",
@@ -93,10 +143,10 @@ define({
     dismissLoadingScreen();
   },
 
-  mapSegData: function() {
+  mapSegData: function(peopleData) {
     let mapedPeopleData = [];
 
-    this.peopleData.forEach(function(person, index) {
+    peopleData.forEach(function(person, index) {
       mapedPeopleData.push({
         "lblName": {"text": person.name},
         "lblID": {"text": person.id.toString()},

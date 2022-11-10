@@ -5,11 +5,35 @@
             "custom": [
                 {
                     "group": "General",
-                    "kuid": "e34a9abb95144951a1cc71d7e02840f7",
+                    "kuid": "j66c050a58174e9e8868c58541ff377c",
                     "paramList": [],
                     "propertyKey": "initDropdown",
                     "pw": {
                         "displayName": "initDropdown",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h16b67a9f5c143628612c0e3b07eed6c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c7fc61aadb0c4c7dabc5c8967c0cd5b5",
+                    "paramList": [],
+                    "propertyKey": "onSelection",
+                    "pw": {
+                        "displayName": "onSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h16b67a9f5c143628612c0e3b07eed6c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "db9a421d8eaf4c588b279bb4665c4045",
+                    "paramList": [],
+                    "propertyKey": "closeDropdown",
+                    "pw": {
+                        "displayName": "closeDropdown",
                         "uiRepresentation": "Label-Label-Button-Button"
                     },
                     "srcWgtKUID": "h16b67a9f5c143628612c0e3b07eed6c",
@@ -20,7 +44,27 @@
         },
         "events": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bc66235ca9584dd4b08c688d0eaedd53",
+                    "originalPropertyKey": "onRowClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onRowClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRowClick",
+                        "srcWidget": "segDropdown",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Segment"
+                    },
+                    "srcWgtKUID": "e71740ce83204c1baca9312bdb626484",
+                    "translateAtInstance": false
+                }
+            ]
         },
         "groups": {
             "apis": [
