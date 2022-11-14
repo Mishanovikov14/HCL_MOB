@@ -53,6 +53,14 @@
                 "kuid": "ad0470f6b113411188c5eff01761aae5",
                 "srcKUID": "i2aca91ff211492db8b7be1e17925935",
                 "wType": "FlexContainer"
+            },
+            "responsiveData": {
+                "b1": {
+                    "zIndex": 2
+                }
+            },
+            "zIndex": {
+                "Default": 1
             }
         },
         "flxSearchIcon": {
@@ -61,6 +69,14 @@
                 "kuid": "jbad25b220d74a19a73e7b43e4d8c9fe",
                 "srcKUID": "efa251f451f5488b8a1cddd7732b0c58",
                 "wType": "FlexContainer"
+            },
+            "responsiveData": {
+                "b1": {
+                    "zIndex": 3
+                }
+            },
+            "zIndex": {
+                "Default": 1
             }
         },
         "imgCross": {
@@ -70,8 +86,15 @@
                 "srcKUID": "d512d80c363f4c679a31c79c1987fcbc",
                 "wType": "Image"
             },
-            "responsiveData": {},
-            "src": "closeblue.png"
+            "responsiveData": {
+                "b1": {
+                    "zIndex": 3
+                }
+            },
+            "src": "closeblue.png",
+            "zIndex": {
+                "Default": 2
+            }
         },
         "imgSearch": {
             "__events__": {},
@@ -89,7 +112,15 @@
                 "srcKUID": "df990ed2dfdf4af795693db53770b5d8",
                 "wType": "TextField"
             },
-            "placeholder": "Search by name"
+            "placeholder": "Search by name",
+            "responsiveData": {
+                "b1": {
+                    "zIndex": 2
+                }
+            },
+            "zIndex": {
+                "Default": 1
+            }
         },
         "search": {
             "__events__": {},

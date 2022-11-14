@@ -9,18 +9,18 @@ define(["Skins"], function (skins) {
     },
 
     initGettersSetters: function() {
-            defineGetter(this, 'currentForm', () => {
+            defineGetter(this, "currentForm", () => {
                 return componentConfig.currentForm;
             });
-            defineSetter(this, 'currentForm', value => {
+            defineSetter(this, "currentForm", value => {
                 componentConfig.currentForm = value;
-                this.view.flxHrzLine1.skin = componentConfig.currentForm !== 'frmDashboard' ? 'slFbox' : 'sknFlxSeparatorWeb';
-                this.view.flxHrzLine2.skin = componentConfig.currentForm !== 'frmLocation' ? 'slFbox' : 'sknFlxSeparatorWeb';
+                this.view.flxHrzLine1.skin = componentConfig.currentForm !== "frmDashboard" && componentConfig.currentForm !== "frmDetails" ? "slFbox" : "sknFlxSeparatorWeb";
+                this.view.flxHrzLine2.skin = componentConfig.currentForm !== "frmLocation" ? "slFbox" : "sknFlxSeparatorWeb";
             });
-            defineGetter(this, 'context', () => {
+            defineGetter(this, "context", () => {
                 return componentConfig.context;
             });
-            defineSetter(this, 'context', value => {
+            defineSetter(this, "context", value => {
                 componentConfig.context = value;
             });
         },

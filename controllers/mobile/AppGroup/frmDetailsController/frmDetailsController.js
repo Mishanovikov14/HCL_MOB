@@ -14,6 +14,7 @@ define({
     this.view.flxChangeGroup.isVisible = params.userType === "Teacher" ? true : false;  
     this.view.flxCamera.isVisible = params.userType === "Teacher" ? true : false;      
     this.view.imgProfile.src = params.gender === "Male" ? "man.png" : "woman.png";
+
     this.view.listBoxGroup.selectedKey = params.group === "Math" ? "key1" : "key2";
 
     this.view.listBoxGroup.onSelection = () => {

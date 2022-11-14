@@ -47,7 +47,8 @@
     "children": [
         "commonHeader",
         "flxContainer",
-        "animatedNotification"
+        "animatedNotification",
+        "flxEmpty"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -57,8 +58,8 @@
         }
     },
     "currentBreakpoint": {
-        "kuid": "b1",
-        "width": 1366
+        "kuid": "b2",
+        "width": 1024
     },
     "currentLocale": "default",
     "desktopweb": {

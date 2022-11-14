@@ -50,6 +50,9 @@
     "parent": "flxFiltering",
     "pf": "frmDashboard",
     "responsiveData": {
+        "b1": {
+            "zIndex": 2
+        },
         "b2": {
             "width": {
                 "type": "string",

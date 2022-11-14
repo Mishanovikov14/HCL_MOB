@@ -47,6 +47,7 @@ define({
 
   preShow: function() {
     this.view.commonHeader.currentForm = this.getCurrentForm();
+    this.view.onDeviceBack = () => Navigation.navigateTo("frmDashboard");
     
     this.view.mapWidget.onPinClick = (mapId, locationData) => {
       if (locationData.name) {

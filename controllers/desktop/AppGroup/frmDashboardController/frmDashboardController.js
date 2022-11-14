@@ -8,6 +8,7 @@ define({
   page: 1,
   isLastPage: false,
   isBtnVisible: true,
+  isEmpty: false,
 
   onViewCreated: function() {
     this.view.postShow = this.postShow;
@@ -17,14 +18,31 @@ define({
     this.peopleData = [];
     this.rowNumber = 0;
     this.page = 1;
-    this.view.btnMore.isVisible = true;
+//     this.view.btnMore.isVisible = false;
     this.userData = voltmx.store.getItem("userInfo");
     this.userType = voltmx.store.getItem("userType");
     this.getPeople();
     this.view.flxMain.isVisible = false;
     this.view.dropdown.initDropdown(["Filter by name" , "Filter by age", "Filter by position"]);
+    
+    this.initAction();
+  },
+
+  postShow: function() {
+    this.view.commonHeader.currentForm = this.getCurrentForm();
+    this.view.lblTitle.text = "Hello, " + this.userData.firstName + "!";
+  },
+  
+  initAction: function() {
     this.view.onBreakpointChange = () => {
       this.view.btnMore.isVisible =  this.isBtnVisible;
+      this.view.flxEmpty.isVisible = this.isEmpty;
+    };
+    
+    this.view.onDeviceBack = () => logout(this, "notExpired");
+    
+    this.view.btnMore.onClick = () => {
+      this.getPeople();
     };
     
     this.view.dropdown.onRowClick = (eguiWidget, sectionNumber, rowNumber) => {
@@ -32,6 +50,13 @@ define({
       this.peopleData = this.view.dropdown.onSelection(rowNumber, this.peopleData);
       this.mapSegData(this.peopleData);
     };
+    
+    this.view.segPeople.onRowClick = (eguiWidget, sectionNumber, rowNumber) => {
+      let data = this.peopleData[rowNumber];
+      data.userType = this.userType;
+      Navigation.navigateTo("frmDetails", data);
+    };
+    
     this.view.search.flxSearchIcon.onTouchStart = () => {
       let searchText = this.view.search.inputSearch.text.trim();
 
@@ -40,9 +65,11 @@ define({
           return people.name.toLowerCase().includes(searchText.toLowerCase());
         });
 
+        this.isBtnVisible = false;
         this.view.btnMore.isVisible =  false;
       } else {
         this.searchData = this.peopleData;
+        this.isBtnVisible = true;
         this.view.btnMore.isVisible =  this.isBtnVisible;
       }
 
@@ -63,14 +90,6 @@ define({
     
     let screen = document.getElementsByTagName("body");
     document.body.addEventListener('click', this.hideDropdown, false);
-  },
-
-  postShow: function() {
-    this.view.commonHeader.currentForm = this.getCurrentForm();
-    this.view.lblTitle.text = "Hello, " + this.userData.firstName + "!";
-    this.view.btnMore.onClick = () => {
-      this.getPeople();
-    };
   },
   
   hideDropdown: function(e) {
@@ -107,11 +126,10 @@ define({
       });
       
       this.isBtnVisible = response.students.length < 3 ? false : true;
-      
-      this.view.btnMore.isVisible =  this.isBtnVisible;
-      
+            
       this.peopleData = this.view.dropdown.onSelection(this.rowNumber, this.peopleData);
       this.mapSegData(this.peopleData);
+      this.view.btnMore.isVisible =  this.isBtnVisible;
     } else {
       let data = {
         text: "Something went wrong!",
@@ -126,8 +144,9 @@ define({
   },
 
   getPeopleError: function(error) {
+    dismissLoadingScreen();
+
     if (error.opstatus === 104) {
-      dismissLoadingScreen();
       logout(this, "expired");
       return;
     }
@@ -140,7 +159,6 @@ define({
     };
 
     this.view.animatedNotification.onShow(data);
-    dismissLoadingScreen();
   },
 
   mapSegData: function(peopleData) {
@@ -158,6 +176,16 @@ define({
         "template": "flxPeopleInfo"
       });
     });
+    
+    if (mapedPeopleData.length === 0) {
+      this.isEmpty = true;
+      this.view.flxEmpty.isVisible = this.isEmpty;
+      this.view.flxMain.isVisible = false;
+      this.isBtnVisible = false;
+      this.view.flxBtnMore.isVisible = false;
+      
+      return;
+    }
 
     let data = [
       [
@@ -174,37 +202,10 @@ define({
     ];
 
     this.view.segPeople.setData(data);
+    this.isEmpty = false;
+    this.view.flxEmpty.isVisible = this.isEmpty;
     this.view.flxMain.isVisible = true;
-  },
-  
-  
-  //Example from Hristo
-  getUsersBySelectAndPagination: function(page, recordsPerPage, successCallback) {
-      var skip = (page - 1) * recordsPerPage;
-      var top = page * recordsPerPage;
-      var integrationService = voltmx.sdk.getDefaultInstance().getIntegrationService("ObjectStorageOrchestration");
-      integrationService.invokeOperation(
-        "getFilteredUserData", 
-        {}, 
-        {
-          "$select": "user_id,first_name,last_name",
-          "$filter": "status eq active and group eq members",
-          "$top": top,
-          "$skip": skip
-        }, 
-        function(response) {
-          if (commonFunctionsHelper.isFunction(successCallback)) {
-             successCallback(response.Users);
-          }
-        }, 
-        function(error) {
-          componentsManager.showMessage(
-            "error", 
-            `Something went wrong.`, 
-            100,
-            true
-          );
-        }
-      );
-    },
+    this.isBtnVisible = true;
+    this.view.flxBtnMore.isVisible = true;
+  }
 });
