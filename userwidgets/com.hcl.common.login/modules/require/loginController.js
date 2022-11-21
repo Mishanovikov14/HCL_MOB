@@ -27,7 +27,6 @@ define(["Skins"], function (skins) {
       this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
       this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER;
     } else {
-//       this.view.flxMain.width = "30%";
       this.view.inputUsername.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER_WEB;
       this.view.inputPassword.placeholderSkin = skins.SKIN_INPUT_PLACEHOLDER_WEB;
     }
@@ -177,7 +176,7 @@ define(["Skins"], function (skins) {
       this.getUserAttributes();
 
       voltmx.application.registerForIdleTimeout(5, this.timeoutCallback);
-      
+
       if (this.view.imgCheck.src === "check.png") {
         let credentials = {
           userid: this.view.inputUsername.text
@@ -188,7 +187,7 @@ define(["Skins"], function (skins) {
         voltmx.store.removeItem("rememberMe");
       }
     },
-    
+
     timeoutCallback: function() {
       logout(this, "expired");
     },

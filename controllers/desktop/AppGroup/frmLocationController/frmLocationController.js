@@ -10,7 +10,7 @@ define({
     this.view.lblLocationName.text = "Current location";
     this.view.lblRating.isVisible = false;
 
-    var highAccuracyOptions = {
+    let highAccuracyOptions = {
       enableHighAccuracy : true,
       timeout : 20000,
       maximumAge : 60000,

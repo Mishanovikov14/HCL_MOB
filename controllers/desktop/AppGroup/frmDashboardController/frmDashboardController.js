@@ -18,7 +18,6 @@ define({
     this.peopleData = [];
     this.rowNumber = 0;
     this.page = 1;
-//     this.view.btnMore.isVisible = false;
     this.userData = voltmx.store.getItem("userInfo");
     this.userType = voltmx.store.getItem("userType");
     this.getPeople();
@@ -124,12 +123,12 @@ define({
        response.students.forEach(student => {
         this.peopleData.push(student);
       });
-      
-      this.isBtnVisible = response.students.length < 3 ? false : true;
             
       this.peopleData = this.view.dropdown.onSelection(this.rowNumber, this.peopleData);
       this.mapSegData(this.peopleData);
-      this.view.btnMore.isVisible =  this.isBtnVisible;
+      
+      this.isBtnVisible = response.students.length < 3 ? false : true;
+      this.view.btnMore.isVisible = this.isBtnVisible;
     } else {
       let data = {
         text: "Something went wrong!",

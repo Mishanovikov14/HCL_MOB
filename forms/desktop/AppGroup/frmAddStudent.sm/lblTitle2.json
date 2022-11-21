@@ -21,8 +21,8 @@
         0,
         0
     ],
-    "_skin_": "s34d2631e0b04eacb224808e43f3ea7a",
-    "_text_": "Add student",
+    "_skin_": "s39f09f2fdcb44f6b74074f296f3c3bf",
+    "_text_": "Class",
     "_top_": {
         "type": "string",
         "value": "0px"
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ea109de1b8ce422289532cf5f2d76228",
+    "kuid": "i9abe490f7094aa88d7d9574a7231426",
     "name": "kony.ui.Label",
-    "parent": "flxTitle2",
-    "pf": "userwidgetmodel",
+    "parent": "flxInfo2",
+    "pf": "frmAddStudent",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

@@ -21,8 +21,8 @@
         0,
         0
     ],
-    "_skin_": "s34d2631e0b04eacb224808e43f3ea7a",
-    "_text_": "Add student",
+    "_skin_": "s39f09f2fdcb44f6b74074f296f3c3bf",
+    "_text_": "Age",
     "_top_": {
         "type": "string",
         "value": "0px"
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblTitle2",
+    "id": "lblTitle3",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ea109de1b8ce422289532cf5f2d76228",
+    "kuid": "ae650cf02e5b48bf8dca7ca81f03dfca",
     "name": "kony.ui.Label",
-    "parent": "flxTitle2",
-    "pf": "userwidgetmodel",
+    "parent": "flxInfo3",
+    "pf": "frmAddStudent",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

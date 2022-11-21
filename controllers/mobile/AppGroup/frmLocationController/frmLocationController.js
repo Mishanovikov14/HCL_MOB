@@ -8,7 +8,7 @@ define({
   onNavigate: function() {
     this.view.mapWidget.mapKey = "AIzaSyBM8KyM0og7riVUwQ71I4xzl6NjzmSwtlY";
 
-    var highAccuracyOptions = {
+    let highAccuracyOptions = {
       enableHighAccuracy : true,
       timeout : 20000,
       maximumAge : 60000,

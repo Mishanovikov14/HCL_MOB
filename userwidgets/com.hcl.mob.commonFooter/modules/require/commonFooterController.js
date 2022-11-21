@@ -13,7 +13,7 @@ define(function() {
       });
       defineSetter(this, 'currentForm', value => {
         componentConfig.currentForm = value;
-        
+
         this.view.imgIcon1.src = componentConfig.currentForm === "frmDashboard" ? "home.png" : "homeactive.png";
         this.view.imgIcon2.src = componentConfig.currentForm !== "frmLocation" ? "location.png" : "locationactive.png";
         this.view.imgIcon3.src = componentConfig.currentForm !== "frmWebsite" ? "website.png" : "websiteactive.png";
@@ -27,7 +27,7 @@ define(function() {
     postShow: function() {
       this.initAction();
     },
-    
+
     initAction: function() {
       this.view.flxBtn1.onTouchStart = () => {
         if (componentConfig.currentForm !== "frmDashboard") {

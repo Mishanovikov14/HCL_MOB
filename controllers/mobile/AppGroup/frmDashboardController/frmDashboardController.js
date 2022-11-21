@@ -108,6 +108,8 @@ define({
     this.view.commonHeader.flxLogout.onClick = () => {
       logout(this, "notExpired");
     };
+    
+    this.view.onDeviceBack = () => logout(this, "notExpired");
 
     this.view.ListBoxDropdown.onSelection = () => {
       this.currentClass = this.view.ListBoxDropdown.selectedKeyValue[1].replace("Class ", "");

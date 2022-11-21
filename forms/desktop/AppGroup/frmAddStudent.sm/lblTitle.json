@@ -21,8 +21,8 @@
         0,
         0
     ],
-    "_skin_": "s34d2631e0b04eacb224808e43f3ea7a",
-    "_text_": "Add student",
+    "_skin_": "s1dbf3fd5dba46c49cc2bcc78bad5319",
+    "_text_": "Nearest School",
     "_top_": {
         "type": "string",
         "value": "0px"
@@ -41,7 +41,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblTitle2",
+    "id": "lblTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ea109de1b8ce422289532cf5f2d76228",
+    "kuid": "e1e22a8a6040443287d2eeaf5e5250c7",
     "name": "kony.ui.Label",
-    "parent": "flxTitle2",
-    "pf": "userwidgetmodel",
+    "parent": "flxTitle",
+    "pf": "frmAddStudent",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

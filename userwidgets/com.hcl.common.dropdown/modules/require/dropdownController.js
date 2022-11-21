@@ -1,4 +1,4 @@
-define(["Skins"], function (skins) {
+define(function() {
   let dropdownData = [];
 
   return {
@@ -56,7 +56,7 @@ define(["Skins"], function (skins) {
 
       return peopleData;
     },
-    
+
     closeDropdown: function() {
       this.view.flxDropdownData.isVisible = false;
     },

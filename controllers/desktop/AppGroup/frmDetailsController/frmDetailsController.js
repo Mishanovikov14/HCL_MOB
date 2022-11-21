@@ -30,7 +30,7 @@ define({
     this.view.lblTitle5.text = "Mobile number:";
     this.view.lblInfo5.text = data.mobile_number || data.phone_number;
 
-    this.view.btnDelete.isVisible = data.userType === "Teacher" ? true : false;
+    this.view.btnDelete.isVisible = data.userType === "Teacher" && data.role === "Student" ? true : false;
 
     if (data.role === "Teacher") {
       this.view.lblTitle6.text = "Experience:";
@@ -51,8 +51,8 @@ define({
   },
 
   deletePerson: function(data) {
-    let objServiceName = data.role === "Student" ? "StudentsDB" : "teacherDB";
-    let dataObjectName = data.role === "Student" ? "students" : "teachers";
+    let objServiceName = "StudentsDB";
+    let dataObjectName = "students";
 
     let objSvc = voltmx.sdk.getDefaultInstance().getObjectService(objServiceName, {
       "access": "online"

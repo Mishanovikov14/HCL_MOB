@@ -21,11 +21,11 @@
         "type": "string",
         "value": "0px"
     },
-    "_skin_": "s588c25df2044fbe80f83b378173d110",
-    "_text_": "Delete student",
+    "_skin_": "s861e1a989df44948e9aeb205294304d",
+    "_text_": "Add student",
     "_top_": {
         "type": "string",
-        "value": "10px"
+        "value": "0px"
     },
     "_width_": {
         "type": "string",
@@ -35,15 +35,15 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "s60712208fbc4aa4b989048e5a685b4e",
-    "id": "btnDelete",
+    "focusskin": "sb2397a152f74744ab5a9a93ae95e0cd",
+    "id": "btnAddStudent",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bf84fd5a8b134bdfb011e9a6038f5488",
+    "kuid": "ec97f7d83904491b85c29dc31a79bb29",
     "name": "kony.ui.Button",
-    "parent": "flxWrapper",
-    "pf": "frmDetails",
+    "parent": "flxWrapper1",
+    "pf": "frmAddStudent",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button",

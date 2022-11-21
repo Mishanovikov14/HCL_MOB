@@ -1,5 +1,4 @@
 define(function() {
-
   return {
     timerId: null,
     initialTop: "",
@@ -8,7 +7,7 @@ define(function() {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
 
     },
-    //Logic for getters/setters of custom properties
+
     initGettersSetters: function() {
 
     },
@@ -31,64 +30,64 @@ define(function() {
     },
 
     onHide: function () {
-        if (this.timerId) {
-          voltmx.timer.cancel(this.timerId);
+      if (this.timerId) {
+        voltmx.timer.cancel(this.timerId);
+      }
+      this.timerId = null;
+      let self = this;
+
+      let scrollAnimationConfig = {
+        100: {
+          top: self.initialTop
+        },
+        0: {
+          top: self.finalTop
         }
-        this.timerId = null;
-        let self = this;
+      };
 
-        let scrollAnimationConfig = {
-          100: {
-            top: self.initialTop
-          },
-          0: {
-            top: self.finalTop
+      this.view.flxAnimatedContainer.animate(
+        voltmx.ui.createAnimation(scrollAnimationConfig),
+        {
+          "iterationCount": 1,
+          "fillMode": voltmx.anim.FILL_MODE_FORWARDS,
+          "duration": 1
+        },
+        {
+          "animationEnd": function() {
+            self.view.isVisible = false;
           }
-        };
-
-        this.view.flxAnimatedContainer.animate(
-          voltmx.ui.createAnimation(scrollAnimationConfig),
-          {
-            "iterationCount": 1,
-            "fillMode": voltmx.anim.FILL_MODE_FORWARDS,
-            "duration": 1
-          },
-          {
-            "animationEnd": function() {
-              self.view.isVisible = false;
-            }
-          }
-        );
+        }
+      );
     },
 
     onShow: function (data) {
-        this.initialize(data);
-        this.view.isVisible = true;
+      this.initialize(data);
+      this.view.isVisible = true;
 
-        let self = this;
-        let scrollAnimationConfig = {
-          100: {
-            top: self.finalTop
-          },
-          0: {
-            top: self.initialTop
-          }
-        };
+      let self = this;
+      let scrollAnimationConfig = {
+        100: {
+          top: self.finalTop
+        },
+        0: {
+          top: self.initialTop
+        }
+      };
 
-        this.view.flxAnimatedContainer.animate(
-          voltmx.ui.createAnimation(scrollAnimationConfig),
-          {
-            "iterationCount": 1,
-            "fillMode": voltmx.anim.FILL_MODE_FORWARDS,
-            "duration": 1
-          },
-          {
-            "animationEnd": function() {},
-          }
-        );
+      this.view.flxAnimatedContainer.animate(
+        voltmx.ui.createAnimation(scrollAnimationConfig),
+        {
+          "iterationCount": 1,
+          "fillMode": voltmx.anim.FILL_MODE_FORWARDS,
+          "duration": 1
+        },
+        {
+          "animationEnd": function() {},
+        }
+      );
 
-        this.timerId = "auto-close";
-        voltmx.timer.schedule(self.timerId, self.onHide, 3, false);
+      this.timerId = "auto-close";
+      voltmx.timer.schedule(self.timerId, self.onHide, 3, false);
     },
   };
 });

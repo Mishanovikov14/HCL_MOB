@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Enter student age",
+    "_skin_": "scb0028dbf6844c8956a98520b251264",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0px"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "accessibilityconfig": {
+        "a11yLabel": "Search using keywords such as Name, Bank, Account Type …"
+    },
+    "android": {},
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "desktopweb": {
+        "placeholderSkin": "sec5004be40c4df98ba9e8a4bed4cb1c"
+    },
+    "id": "inputAge",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "showClearButton": false,
+            "showCloseButton": false
+        }
+    },
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kiosk": {
+        "psp": {
+            "toolTip": "Search Keywords such as Name, Bank, Account Type etc..."
+        }
+    },
+    "kuid": "g036f795fdf74b88b507ca15823c7434",
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxInput3",
+    "pf": "frmAddStudent",
+    "placeholderi18n": "i18n.billPay.SearchMessage",
+    "placeholderskin": "sec5004be40c4df98ba9e8a4bed4cb1c",
+    "securetextentry": false,
+    "showclearbutton": false,
+    "textinputmode": "N",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}
